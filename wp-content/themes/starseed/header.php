@@ -57,6 +57,11 @@
 
         <!-- <img class="bg-img" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg" alt=""> -->
 
+
+        <div class="top-bar-bg-div">
+
+
+        </div>
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main" role="main">

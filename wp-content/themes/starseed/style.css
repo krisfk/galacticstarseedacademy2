@@ -2326,6 +2326,16 @@ h2 {
     float: left !important;
 }
 
+.top-bar-bg-div {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (min-width: 1400px) {
