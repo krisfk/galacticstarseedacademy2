@@ -239,7 +239,7 @@ body {
     display: flex;
     width: 100%;
     min-height: 700px;
-    background: url(./assets/images/bottom-bg-trans.png);
+    /* background: url(./assets/images/bottom-bg-trans.png); */
     background-size: 100% 100%;
 }
 
