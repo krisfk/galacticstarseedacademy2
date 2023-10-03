@@ -46,14 +46,18 @@ get_header(); ?>
 
         <?php //echo get_field('content_1');?>
 
-        <h1>正在尋找高階的靈性課程？</h1>
-        <div class="content-txt-div mt-4">
-            星際綜合能量療法 <br>
-            一個絕對不會讓你後悔的靈性課程
+        <div class="text-center">
+            <h1>正在尋找高階的靈性課程？</h1>
+            <div class="content-txt-div mt-4">
+                星際綜合能量療法 <br>
+                一個絕對不會讓你後悔的靈性課程
+
+            </div>
+
+            <a href="<?php echo get_site_url();?>/key" class="know-more-btn">了解更多</a>
+
 
         </div>
-
-        <a href="<?php echo get_site_url();?>/key" class="know-more-btn">了解更多</a>
 
 
 
