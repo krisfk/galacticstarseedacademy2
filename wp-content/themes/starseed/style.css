@@ -209,7 +209,7 @@ body {
 
 .about-div-wrapper {
     display: block;
-    background: url(./assets/images/tran-bg-3.png) repeat-y;
+    /* background: url(./assets/images/tran-bg-3.png) repeat-y; */
     background-size: 100% 100%;
     margin: -64px 0 0 0;
     position: relative;
