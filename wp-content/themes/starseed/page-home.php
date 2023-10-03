@@ -41,6 +41,8 @@ get_header(); ?>
         <!-- <h1>星際種子學院</h1>
         星際種子學院是一個幫助光行者和靈修人士喚醒內心的星際種子的平台。這裡是引導每一個靈魂回家的道路；在這裡，你會更深入認識身心靈的世界，並且在這個世界盡情發光發亮！ -->
 
+        <div><img src="https://galacticstarseedacademy.com/wp-content/uploads/2023/03/desktop-logo-300x300.png" alt="">
+        </div>
         <?php echo get_field('content_1');?>
     </div>
     <!-- <div class="col-lg-6 col-md-12 col-sm-12 col-12 "><img class="humans-img "
