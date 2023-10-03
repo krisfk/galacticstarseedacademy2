@@ -76,7 +76,7 @@
                                 <div class="row align-items-center top-menu-div">
                                     <div class="col-2">
                                         <a href="<?php echo get_site_url();?>" class="logo-a">
-                                            <img src="<?php echo get_template_directory_uri();?>/assets/images/desktop-logo.png"
+                                            <img src="https://galacticstarseedacademy.com/wp-content/themes/starseed/assets/images/desktop-logo.png"
                                                 alt="">
                                         </a>
 
