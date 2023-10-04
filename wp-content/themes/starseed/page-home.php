@@ -106,13 +106,12 @@ get_header(); ?>
     <div class="row align-items-center mobile-column-reverse">
 
 
-        <div class="container mx-auto">
 
 
-            <div class="container mt-5 mb-5 position-relative">
+        <div class="container mt-5 mb-5 position-relative">
 
 
-                <!-- <img class="star5" style="width: 400px !important;position: absolute;left: -280px;bottom: -70px;"
+            <!-- <img class="star5" style="width: 400px !important;position: absolute;left: -280px;bottom: -70px;"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star5.png" alt="">
 
     <img class="star6" style=" width: 350px !important;position: absolute;top: -69px;right: -200px;"
@@ -120,29 +119,28 @@ get_header(); ?>
  -->
 
 
-                <div class="row align-items-center mobile-column-reverse">
+            <div class="row align-items-center mobile-column-reverse">
 
 
-                    <div class="col-lg-7 col-md-12 col-sm-12 col-12  text-end content-txt">
-                        <h1>關於Xylas</h1>
-                        <div class="content-txt-div mt-4">
-                            作為一位靈魂療癒師、《5D揚升科學：靈魂揚升的秘密》作者、揚升科學執行師及導師、星界能量導師、星際種子溯源咨詢師；Xylas是星際種子學院的創辦人。
-
-                        </div>
-
-
-                        <a href="http://64.227.13.14/starseed/about-us" class="know-more-btn">了解更多</a>
-                    </div>
-                    <div class="col-lg-5 col-md-12 col-sm-12 col-12 ">
-                        <img class="w-100 bosco-foto"
-                            src="https://galacticstarseedacademy.com/wp-content/uploads/2023/09/Propic.png" alt="">
+                <div class="col-lg-7 col-md-12 col-sm-12 col-12  text-end content-txt">
+                    <h1>關於Xylas</h1>
+                    <div class="content-txt-div mt-4">
+                        作為一位靈魂療癒師、《5D揚升科學：靈魂揚升的秘密》作者、揚升科學執行師及導師、星界能量導師、星際種子溯源咨詢師；Xylas是星際種子學院的創辦人。
 
                     </div>
+
+
+                    <a href="http://64.227.13.14/starseed/about-us" class="know-more-btn">了解更多</a>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12 ">
+                    <img class="w-100 bosco-foto"
+                        src="https://galacticstarseedacademy.com/wp-content/uploads/2023/09/Propic.png" alt="">
 
                 </div>
 
-
             </div>
+
+
         </div>
         <!-- <div class="middle-container mx-auto">fdfsfs</div> -->
 
