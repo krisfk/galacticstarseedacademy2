@@ -81,7 +81,7 @@ get_header(); ?>
 
     <div class="col-12 position-relative">
 
-        <div class="about-div-wrapper  pt-5 pb-5">
+        <div class="about-div-wrapper  ">
             <div class="about-div">
                 <div class="container">
 
