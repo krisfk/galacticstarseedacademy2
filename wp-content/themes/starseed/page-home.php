@@ -80,18 +80,27 @@ get_header(); ?>
 
 <div class="row  ">
 
-    <div class="col-12 position-relative ">
+    <h1>成為會員</h1>
+
+    <div class="content-txt-div mt-4">
+        用最低成本，學習最高階的靈性技術
+
+
+
+    </div>
+    <a href="<?php echo get_site_url();?>/key" class="know-more-btn">立即了解更多</a>
+
+
+    <!-- <div class="col-12 position-relative ">
 
         <div class="about-div-wrapper  ">
             <div class="about-div">
                 <div class="container">
 
                     <div class="row align-items-center ">
-                        <!-- <div class="col-lg-4 col-md-12 col-sm-12 col-12  g-0">
-                            <img class="w-100 sitting-img"
-                                src="<?php echo get_template_directory_uri();?>/assets/images/sitting2.png" alt="">
-
-                        </div> -->
+                       
+                    
+                    
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12 g-0  content-txt text-center">
 
 
@@ -106,12 +115,8 @@ get_header(); ?>
                             </div>
                             <a href="<?php echo get_site_url();?>/key" class="know-more-btn">立即了解更多</a>
 
-                            <?php //echo get_field('content_2');?>
-
-                            <!-- <h1>關於我們</h1>
-                            <div>
-                                星際種子學院是一個幫助光行者和靈修人士喚醒內心的星際種子的平台。這裡是引導每一個靈魂回家的道路；在這裡，你會更深入認識身心靈的世界，並且在這個世界盡情發光發亮！我們的靈魂來到地球，所渴望的就是體驗完滿的生命。而現在，在這裡，你將會可以在你的靈性修行上更進一步，讓你的療癒、冥想、學習、知識全都進入另一種境界。在這裡，你將會接受成為星際光行者所需要的訓練和教育。我們除了提供教授各種靈性技術的課程和工作坊外，也創立了「揚升之鑰」，一個長期讓大家吸收靈性知識、接受點化和讓宇宙的頻率融入自己生活的學習平台，讓大家的學習不會因為課程或工作坊的時數而受限制，可以定期吸收新知識和接受提升。
-                            </div> -->
+                          
+                            
                         </div>
 
                     </div>
@@ -120,7 +125,7 @@ get_header(); ?>
         </div>
 
 
-    </div>
+    </div> -->
 </div>
 
 <div class="container mt-5 mb-5 position-relative">
