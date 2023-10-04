@@ -86,14 +86,14 @@ get_header(); ?>
                 <div class="container">
 
                     <div class="row align-items-center ">
-                        <div class="col-lg-4 col-md-12 col-sm-12 col-12  g-0">
+                        <!-- <div class="col-lg-4 col-md-12 col-sm-12 col-12  g-0">
                             <img class="w-100 sitting-img"
                                 src="<?php echo get_template_directory_uri();?>/assets/images/sitting2.png" alt="">
 
-                        </div>
+                        </div> -->
                         <div class="col-lg-8 col-md-12 col-sm-12 col-12 g-0  content-txt">
 
-                            <?php echo get_field('content_2');?>
+                            <?php //echo get_field('content_2');?>
 
                             <!-- <h1>關於我們</h1>
                             <div>
