@@ -49,7 +49,7 @@ get_header(); ?>
         <div class="text-center">
             <h1>正在尋找高階的靈性課程？</h1>
             <div class="content-txt-div mt-4">
-                星際綜合能量療法 一個絕對不會讓你後悔的靈性課程
+                星際綜合能量療法&nbsp; &nbsp; 一個絕對不會讓你後悔的靈性課程
 
 
             </div>
