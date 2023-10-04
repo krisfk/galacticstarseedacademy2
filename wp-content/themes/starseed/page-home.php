@@ -78,7 +78,7 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="row   pt-5 pb-5 g-bg">
+<div class="row  ">
 
     <div class="col-12 position-relative ">
 
