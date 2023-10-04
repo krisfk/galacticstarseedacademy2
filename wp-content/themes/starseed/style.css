@@ -2367,6 +2367,10 @@ h1 {
   width: 100%;
 }
 
+.container {
+  max-width: 999px !important;
+}
+
 @media only screen and (max-width: 1920px) {
 }
 
