@@ -77,11 +77,11 @@ get_header(); ?>
 
 </div>
 
-<div class="row g-bg  pt-5 pb-5">
+<div class="row  ">
 
     <div class="col-12 position-relative">
 
-        <div class="about-div-wrapper  ">
+        <div class="about-div-wrapper   pt-5 pb-5 g-bg">
             <div class="about-div">
                 <div class="container">
 
