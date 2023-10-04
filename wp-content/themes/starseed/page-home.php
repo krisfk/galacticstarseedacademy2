@@ -69,9 +69,7 @@ get_header(); ?>
 
 
     </div>
-    <!-- <div class="col-lg-6 col-md-12 col-sm-12 col-12 "><img class="humans-img "
-            src="<?php echo get_template_directory_uri();?>/assets/images/humans.png" alt="">
-    </div> -->
+
 </div>
 
 
