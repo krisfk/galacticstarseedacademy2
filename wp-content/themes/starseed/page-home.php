@@ -91,7 +91,7 @@ get_header(); ?>
                                 src="<?php echo get_template_directory_uri();?>/assets/images/sitting2.png" alt="">
 
                         </div> -->
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 g-0  content-txt">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 g-0  content-txt text-center">
 
 
 
