@@ -106,7 +106,8 @@ get_header(); ?>
     <div class="row align-items-center mobile-column-reverse">
 
 
-        <div class="middle-container mx-auto">fdfsfs</div>
+        <div class="container">fdsf</div>
+        <!-- <div class="middle-container mx-auto">fdfsfs</div> -->
 
         <!-- <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end content-txt">
 
