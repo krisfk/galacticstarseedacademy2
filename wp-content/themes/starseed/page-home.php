@@ -157,7 +157,7 @@ get_header(); ?>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
             <img class="w-100 bosco-foto"
-                src="<?php echo get_template_directory_uri();?>/assets/images/Pro-Pic-1-600x600.jpeg" alt="">
+                src="https://galacticstarseedacademy.com/wp-content/uploads/2023/09/Propic.png" alt="">
 
         </div>
 
