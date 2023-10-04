@@ -2318,7 +2318,7 @@ span.jp-artist {
 .bosco-foto {
   max-width: 360px;
   display: block;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 0rem auto;
 }
 
 .h2,
@@ -2761,7 +2761,7 @@ h1 {
   .bosco-foto {
     max-width: 360px;
     display: block;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 0rem auto;
   }
   .content-txt h1 {
     text-align: center;
