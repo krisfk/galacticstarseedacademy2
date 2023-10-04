@@ -145,6 +145,27 @@ get_header(); ?>
 </div>
 
 
+
+
+<div class="row pt-5 pb-5 g-bg">
+
+    <div class="container text-center">
+        <h1>聽聽別人對Xylas的評價：</h1>
+
+        <div class="content-txt-div mt-4">
+            fdfs
+
+
+        </div>
+
+
+    </div>
+
+
+
+</div>
+
+
 <!-- 
 <div class="bottom-container-wrapper">
     <div class="container">
