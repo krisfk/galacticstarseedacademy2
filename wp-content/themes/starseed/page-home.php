@@ -106,7 +106,43 @@ get_header(); ?>
     <div class="row align-items-center mobile-column-reverse">
 
 
-        <div class="container mx-auto">fdsf</div>
+        <div class="container mx-auto">
+
+
+            <div class="container mt-5 mb-5 position-relative">
+
+
+                <!-- <img class="star5" style="width: 400px !important;position: absolute;left: -280px;bottom: -70px;"
+        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star5.png" alt="">
+
+    <img class="star6" style=" width: 350px !important;position: absolute;top: -69px;right: -200px;"
+        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star6.png" alt="">
+ -->
+
+
+                <div class="row align-items-center mobile-column-reverse">
+
+
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end content-txt">
+                        <h1>關於Xylas</h1>
+                        <div class="content-txt-div mt-4">
+                            Xylas是一位星界靈魂療癒師、星際種子溯源咨詢師、揚升科學的執行師和導師。他曾經是一位催眠治療師，透過傳統的催眠療法替人解決心理問題。後來，在一連串靈性啟蒙之後，他踏上了靈性修行的旅途，成為一位光工作者，希望透過療癒和指引幫助更多人開發他們的靈性潛能、創造豐盛人生。
+                        </div>
+
+
+                        <a href="http://64.227.13.14/starseed/about-us" class="know-more-btn">了解更多</a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
+                        <img class="w-100 bosco-foto"
+                            src="https://galacticstarseedacademy.com/wp-content/uploads/2023/09/Propic.png" alt="">
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
         <!-- <div class="middle-container mx-auto">fdfsfs</div> -->
 
         <!-- <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end content-txt">
