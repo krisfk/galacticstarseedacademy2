@@ -97,9 +97,9 @@ get_header(); ?>
 
 
 </div>
-<div class="row">
+<div class="row pt-5 pb-5 g-bg">
 
-    <div class="container mt-5 mb-5 position-relative">
+    <div class="container  position-relative">
 
 
 
