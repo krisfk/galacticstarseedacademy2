@@ -57,7 +57,7 @@ get_header(); ?>
 
             </div>
 
-            <a href="<?php echo get_site_url();?>/key" class="know-more-btn">了解更多</a>
+            <a href="<?php echo get_site_url();?>/key" class="know-more-btn">立即了解更多</a>
 
 
         </div>
@@ -91,7 +91,18 @@ get_header(); ?>
                                 src="<?php echo get_template_directory_uri();?>/assets/images/sitting2.png" alt="">
 
                         </div> -->
-                        <div class="col-lg-8 col-md-12 col-sm-12 col-12 g-0  content-txt">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 g-0  content-txt">
+
+
+
+                            <h1>成為會員</h1>
+                            <div class="content-txt-div mt-4">
+
+
+
+                            </div>
+
+                            <a href="<?php echo get_site_url();?>/key" class="know-more-btn">立即了解更多</a>
 
                             <?php //echo get_field('content_2');?>
 
