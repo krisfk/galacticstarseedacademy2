@@ -33,6 +33,11 @@ get_header(); ?>
 
 
 
+</div>
+
+
+
+
 
 
 <div class="row align-items-center mt-0 mobile-column-reverse w-bg  pt-4 pb-5">
@@ -71,10 +76,6 @@ get_header(); ?>
 
 
     </div>
-
-</div>
-
-
 </div>
 
 <div class="row  ">
