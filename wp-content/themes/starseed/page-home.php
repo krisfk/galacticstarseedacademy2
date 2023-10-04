@@ -35,7 +35,7 @@ get_header(); ?>
 
 
 
-<div class="row align-items-center mt-0 mobile-column-reverse">
+<div class="row align-items-center mt-0 mobile-column-reverse w-bg">
 
     <div class="col-lg-12 col-md-12 col-sm-12 col-12 txt-top content-txt ">
 
@@ -47,6 +47,8 @@ get_header(); ?>
         <?php //echo get_field('content_1');?>
 
         <div class="text-center">
+
+
             <h1>正在尋找高階的靈性課程？</h1>
             <div class="content-txt-div mt-4">
                 星際綜合能量療法 <br>
@@ -75,7 +77,7 @@ get_header(); ?>
 
 </div>
 
-<div class="row  ">
+<div class="row g-bg ">
 
     <div class="col-12 position-relative">
 

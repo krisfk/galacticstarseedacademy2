@@ -2352,6 +2352,14 @@ h1 {
   color: #851759 !important;
 }
 
+.w-bg {
+  background: #fff;
+}
+
+.g-bg {
+  background: #f8f7f7;
+}
+
 @media only screen and (max-width: 1920px) {
 }
 
