@@ -35,7 +35,7 @@ get_header(); ?>
 
 
 
-<div class="row align-items-center mt-0 mobile-column-reverse mt-5">
+<div class="row align-items-center mt-0 mobile-column-reverse">
 
     <div class="col-lg-12 col-md-12 col-sm-12 col-12 txt-top content-txt ">
 
