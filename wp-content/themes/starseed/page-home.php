@@ -145,7 +145,7 @@ get_header(); ?>
 </div>
 
 
-
+<!-- 
 <div class="bottom-container-wrapper">
     <div class="container">
 
@@ -157,10 +157,6 @@ get_header(); ?>
                 <div class="content-txt me-5 px-2">
                     <?php echo get_field('content_4');?>
 
-                    <!-- <h1>揚升之鑰</h1>
-                    <div>
-                        揚升之鑰是一個讓希望進一步開發靈性潛能的人長期學習和在靈性上成長的平台。在這個平台上，你將會吸收到大量在書局和網上無法找到的資訊，以及連結來自星際和宇宙間的高頻能量，讓來自宇宙本源的能量填滿你生命的每一個部分。
-                    </div> -->
                     <a href="<?php echo get_site_url();?>/key" class="know-more-btn">了解更多</a>
 
                 </div>
@@ -169,10 +165,7 @@ get_header(); ?>
 
 
                 <div class="content-txt me-5 px-2">
-                    <!-- <h1>多次元靈魂療癒</h1>
-                    <div>
-                        多次元靈魂療癒是一種釋放生理、情緒、心智和靈性上的能量堵塞的療癒過程。在這個療癒過程中，Bosco會進入非物質維度找出你希望處理的事項的成因。
-                    </div> -->
+
                     <?php echo get_field('content_5');?>
 
 
@@ -188,7 +181,7 @@ get_header(); ?>
         </div>
     </div>
 </div>
-
+ -->
 
 <?php
 
