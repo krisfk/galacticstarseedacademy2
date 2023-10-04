@@ -108,7 +108,7 @@ get_header(); ?>
 
 
 
-        <div class="container mt-5 mb-5 position-relative">
+        <div class="">
 
 
             <!-- <img class="star5" style="width: 400px !important;position: absolute;left: -280px;bottom: -70px;"
