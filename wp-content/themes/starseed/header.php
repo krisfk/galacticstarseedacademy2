@@ -58,10 +58,7 @@
         <!-- <img class="bg-img" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg" alt=""> -->
 
 
-        <div class="top-bar-bg-div">
 
-
-        </div>
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main" role="main">
@@ -76,43 +73,47 @@
                             alt=""> -->
 
 
-                        <div class="oute-menu-div">
-                            <div class="container position-relative pt-3 ">
+                        <div class="outer-menu-div">
 
-                                <div class="top-menu-container mb-lg-0 mb-md-2 mb-sm-2 mb-2  ">
+                            <div class="top-bar-bg-div">
 
-                                    <div class="row align-items-center top-menu-div">
-                                        <div class="col-2">
-                                            <a href="<?php echo get_site_url();?>" class="logo-a">
-                                                <img src="https://galacticstarseedacademy.com/wp-content/themes/starseed/assets/images/desktop-logo.png"
-                                                    alt="">
-                                            </a>
 
-                                            <a href="<?php echo get_site_url();?>" class="mobile-logo-a">
-                                                <img src="https://galacticstarseedacademy.com/wp-content/themes/starseed/assets/images/starseed-mobile-logo.png"
-                                                    alt="">
-                                            </a>
-                                            <a href="<?php echo get_site_url();?>" class="mobile-logo-word">
-                                                <img src="<?php echo get_template_directory_uri();?>/assets/images/mobile-logo-word.png"
-                                                    alt="">
+                                <div class="container position-relative pt-3 ">
 
-                                            </a>
-                                        </div>
-                                        <div class="col-10 text-end">
+                                    <div class="top-menu-container mb-lg-0 mb-md-2 mb-sm-2 mb-2  ">
 
-                                            <div class="top-menu-ul-wrapper">
-                                                <ul class=" top-menu-ul">
+                                        <div class="row align-items-center top-menu-div">
+                                            <div class="col-2">
+                                                <a href="<?php echo get_site_url();?>" class="logo-a">
+                                                    <img src="https://galacticstarseedacademy.com/wp-content/themes/starseed/assets/images/desktop-logo.png"
+                                                        alt="">
+                                                </a>
 
-                                                    <li class="mobile-logo-li">
-                                                        <!-- <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png"
+                                                <a href="<?php echo get_site_url();?>" class="mobile-logo-a">
+                                                    <img src="https://galacticstarseedacademy.com/wp-content/themes/starseed/assets/images/starseed-mobile-logo.png"
+                                                        alt="">
+                                                </a>
+                                                <a href="<?php echo get_site_url();?>" class="mobile-logo-word">
+                                                    <img src="<?php echo get_template_directory_uri();?>/assets/images/mobile-logo-word.png"
+                                                        alt="">
+
+                                                </a>
+                                            </div>
+                                            <div class="col-10 text-end">
+
+                                                <div class="top-menu-ul-wrapper">
+                                                    <ul class=" top-menu-ul">
+
+                                                        <li class="mobile-logo-li">
+                                                            <!-- <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png"
                                                     alt=""> -->
-                                                        <a href="<?php echo get_site_url();?>" class="logo-a">
-                                                            <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png"
-                                                                alt="">
-                                                        </a>
+                                                            <a href="<?php echo get_site_url();?>" class="logo-a">
+                                                                <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png"
+                                                                    alt="">
+                                                            </a>
 
-                                                    </li>
-                                                    <?php
+                                                        </li>
+                                                        <?php
                                     $main_menu = wp_get_menu_array('main menu');
 foreach ($main_menu as $menu_item) {
 
@@ -131,18 +132,18 @@ if(count($menu_item['children']))
   
     echo '<li><a class="level-1 parent '.$class.'" href="'.$url.'">'.$title;
     ?>
-                                                    <img class="arrow"
-                                                        src="<?php echo get_template_directory_uri();?>/assets/images/white-arrow-enter.png"
-                                                        alt="">
+                                                        <img class="arrow"
+                                                            src="<?php echo get_template_directory_uri();?>/assets/images/white-arrow-enter.png"
+                                                            alt="">
 
-                                                    <?php
+                                                        <?php
     echo'</a>';
 
  
     echo '<ul class="mobile-menu-submenu">';
 ?>
 
-                                                    <?php
+                                                        <?php
     
     foreach ($menu_item['children'] as $sub_menu_item) 
     {
@@ -188,52 +189,54 @@ if($status=='expired')
 if( pms_is_member_of_plan( array( 178 ) )  || $expired) 
 {
     ?>
-                                                    <li>
-                                                        <a class="level-1"
-                                                            href="<?php echo get_site_url();?>/account">我的帳號</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="level-1"
-                                                            href="<?php echo wp_logout_url(get_site_url()) ?>">登出</a>
-                                                    </li>
-                                                    <?php    // wp_redirect(get_site_url().'/key');
+                                                        <li>
+                                                            <a class="level-1"
+                                                                href="<?php echo get_site_url();?>/account">我的帳號</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="level-1"
+                                                                href="<?php echo wp_logout_url(get_site_url()) ?>">登出</a>
+                                                        </li>
+                                                        <?php    // wp_redirect(get_site_url().'/key');
     // exit;
 }
 
 ?>
 
 
-                                                    <li>
-                                                        <a href="<?php echo get_site_url()?>/cart" class="cart-a"> <img
-                                                                src="<?php echo get_template_directory_uri();?>/assets/images/cart.png"
-                                                                alt=""></a>
+                                                        <li>
+                                                            <a href="<?php echo get_site_url()?>/cart" class="cart-a">
+                                                                <img src="<?php echo get_template_directory_uri();?>/assets/images/cart.png"
+                                                                    alt=""></a>
 
-                                                    </li>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <!-- <a href="#" class="mobile-menu-btn float-end"> -->
+
+                                                <a id="nav-icon3" href="#" class="mobile-menu-btn float-end">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </a>
+                                                <!-- </a> -->
+
+
+
+
+
                                                 </ul>
                                             </div>
-
-                                            <!-- <a href="#" class="mobile-menu-btn float-end"> -->
-
-                                            <a id="nav-icon3" href="#" class="mobile-menu-btn float-end">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </a>
-                                            <!-- </a> -->
-
-
-
-
-
-                                            </ul>
                                         </div>
+
                                     </div>
 
                                 </div>
 
-                            </div>
 
+                            </div>
 
                             <script type="text/javascript">
                             $(function() {
