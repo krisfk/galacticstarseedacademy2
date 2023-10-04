@@ -78,17 +78,21 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="row  ">
+<div class="row pt-5 pb-5 g-bg">
 
-    <h1>成為會員</h1>
+    <div class="container text-center">
+        <h1>成為會員</h1>
 
-    <div class="content-txt-div mt-4">
-        用最低成本，學習最高階的靈性技術
+        <div class="content-txt-div mt-4">
+            用最低成本，學習最高階的靈性技術
 
+
+
+        </div>
+        <a href="<?php echo get_site_url();?>/key" class="know-more-btn">立即了解更多</a>
 
 
     </div>
-    <a href="<?php echo get_site_url();?>/key" class="know-more-btn">立即了解更多</a>
 
 
     <!-- <div class="col-12 position-relative ">
