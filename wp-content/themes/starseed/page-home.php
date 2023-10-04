@@ -78,9 +78,9 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="row  ">
+<div class="row   pt-5 pb-5 g-bg">
 
-    <div class="col-12 position-relative  pt-5 pb-5 g-bg">
+    <div class="col-12 position-relative ">
 
         <div class="about-div-wrapper  ">
             <div class="about-div">
