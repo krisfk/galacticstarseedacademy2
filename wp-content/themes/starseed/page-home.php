@@ -96,12 +96,13 @@ get_header(); ?>
 
 
                             <h1>成為會員</h1>
+
                             <div class="content-txt-div mt-4">
+                                用最低成本，學習最高階的靈性技術
 
 
 
                             </div>
-
                             <a href="<?php echo get_site_url();?>/key" class="know-more-btn">立即了解更多</a>
 
                             <?php //echo get_field('content_2');?>
