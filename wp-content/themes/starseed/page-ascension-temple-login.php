@@ -303,7 +303,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
             ?>
 
                 <div class="text-start mb-5">
-                    <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
+                    <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-introduction">
                         <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
             {
