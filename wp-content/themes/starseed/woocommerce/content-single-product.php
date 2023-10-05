@@ -41,17 +41,6 @@ global $product;
 <div class="inner-container pb-6 mt-lg-5 mt-md-0 mt-sm-0 mt-0 position-relative">
 
 
-    <!-- <img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;"
-        src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
-    <img class="star8 fadein-ele" style="  width: 305px !important;position: absolute;bottom: 20px;left: -140px;"
-        src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
-    <img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;bottom: -120px;left: 543px;"
-        src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
-    <img class="star10 fadein-ele"
-        style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
-        src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
-
-         -->
     <div class="row align-items-center justify-content-center gx-5 mobile-column-reverse">
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  fadeleft-ele">
@@ -71,7 +60,6 @@ global $product;
 
 
             <div class="text-end">
-                <!-- <a href="#" class="add-to-cart-btn">加入購物車</a> -->
 
                 <?php
 				echo apply_filters( 'woocommerce_loop_add_to_cart_link',
@@ -90,13 +78,10 @@ global $product;
 
         </div>
         <div class="col-lg-3 col-md-12 col-sm-12 col-12  position-relative  faderight-ele">
-            <!-- <img class="alien-img w-100" src="<?php echo get_template_directory_uri();?>/assets/images/alien.png"
-                alt=""> -->
 
-            <!-- <img class="w-100" src="<?php echo wp_get_attachment_url( $product->get_image_id() ); ?>" /> -->
             <?php
                     echo get_field('layout_product_img');
-                    ?>
+            ?>
 
         </div>
     </div>
@@ -134,15 +119,8 @@ if( have_rows('content_sections') )
                 ?>
 <div class="container inner-container mt-4 text-center mb-5">
 
-    <!-- <img class="left-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
 
-    <img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(100,200); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt=""> -->
+
     <div class="row">
         <div class="col-12 gx-lg-4 gx-md-5 gx-sm-5 gx-5 ">
             <?php if($subtitle)
@@ -219,20 +197,8 @@ if(get_field('icon_and_text_structure'))
 {
     ?>
 <div class="container inner-container mt-5 icon-and-text-structure-div">
-    <!-- <img class="right-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
 
-    <img class="left-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(500,600); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
 
-    <img class="right-star star8 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(700,900); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt=""> -->
 
 
     <div class="row text-center gx-lg-4 gx-md-0 gx-sm-0 gx-0 ">
@@ -280,12 +246,8 @@ if($idx %3==0)
     $idx2++;
 }
 ?>
-        <!-- <div class="col-12">
-            <div class="mt-4 soul-healing-content  soul-healing-content-2">
 
-            </div>
 
-        </div> -->
         <?php
         $idx++;
                 }
@@ -380,12 +342,7 @@ if(get_field('show_heal_flow'))
 
 </div>
 
-<!-- $idx=0;
-if( have_rows('content_sections') )
-{
-    while(have_rows('content_sections') )
-    {
-        the_row();  -->
+
 
 <?php
 }
