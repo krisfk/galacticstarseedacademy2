@@ -22,7 +22,7 @@ get_header(); ?>
 <div class="w-bg">
 
     <div class="container">
-        <div class="inner-container container pb-6 pt-5 text-center">
+        <div class="inner-container container pb-5 pt-5 text-center">
             <div class="row align-items-center justify-content-center gx-5 fadein-ele">
 
                 <?php //echo get_the_content();?>
