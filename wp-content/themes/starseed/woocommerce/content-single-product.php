@@ -355,6 +355,7 @@ if(get_field('show_heal_flow'))
 
 if(get_field('show_client_case_share'))
 {
+    $idx++;
     ?>
 <div class="sharing-div pt-5 pb-5 <?php echo $bg_class;?>">
 
@@ -404,28 +405,24 @@ if(get_field('show_client_case_share'))
 
 if(get_field('show_notice_content'))
 {
+    $idx++;
     ?>
-<div class="container mt-5 text-center pb-5 inner-container pe-3 ps-3">
 
-    <img class="left-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(10,50); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
-
-    <img class="right-star star8 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(50,200); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
+<div class="<?php $bg_class;?>">
+    <div class="container mt-5 text-center pb-5 inner-container pe-3 ps-3">
 
 
-    <h1 class="mt-4">注意事項</h1>
-    <div class="mt-4">
-        <?php
+        <h1 class="mt-4">注意事項</h1>
+        <div class="mt-4">
+            <?php
         echo  get_field('notice_content');
         
         ?>
+        </div>
     </div>
+
 </div>
+
 
 <?php
 }
@@ -436,11 +433,6 @@ if(get_field('show_notice_content'))
 
 
 
-
-
-<div class="container mt-5 text-center pb-5 inner-container">
-
-</div>
 
 
 
