@@ -42,7 +42,7 @@ get_header(); ?>
             <div class-="text-center">
                 <!-- 我們樂意為您提供任何協助 -->
 
-                <table class="text-start">
+                <table class="text-start mx-auto">
                     <tr>
                         <td>Whatsapp：</td>
                         <td>69995659</td>
