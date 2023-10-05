@@ -283,16 +283,15 @@ body {
 
 .know-more-btn2 {
   display: inline-block;
-  /* background: #fff; */
-  color: #ffffff;
+  background: #fff;
+  color: #fff;
   padding: 10px 25px;
   text-decoration: none;
   border-radius: 20px;
-  /* margin: 40px 0 0 0; */
   margin: 1rem 0 0 0;
   transition: 0.2s all;
-  border: 1px solid;
   line-height: 1;
+  background: #a55683;
 }
 
 .know-more-btn2:hover {
