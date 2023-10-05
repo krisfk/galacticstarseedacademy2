@@ -114,7 +114,7 @@ if( have_rows('content_sections') )
         $subtitle = get_sub_field('subtitle_text');
         $content = get_sub_field('content');
         $heading_size= get_sub_field('heading_size');
-        echo 3324432432423;
+        echo $idx;
         $bg_class= ($idx %2 ==1) ? 'b-bg':'w-bg';
         if($idx %2 ==1)
         {
