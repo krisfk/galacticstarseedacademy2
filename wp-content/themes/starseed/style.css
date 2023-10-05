@@ -507,8 +507,8 @@ a.add-to-cart-btn:hover {
 .sharing-div {
   display: flex;
   width: 100%;
-  min-height: 470px;
-  background: url(./assets/images/purple-rect-bg-2.png);
+  /* min-height: 470px; */
+  /* background: url(./assets/images/purple-rect-bg-2.png); */
   /* background-size: 100% 100%; */
   text-align: center;
   justify-content: center;
