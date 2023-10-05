@@ -121,7 +121,7 @@ if( have_rows('content_sections') )
         {
                 ?>
 <div class="<?php echo $bg_class;?> pt-5 pb-5">
-    <div class="container inner-container mt-4 text-center mb-5">
+    <div class="container inner-container mt-4 text-center">
 
 
 
