@@ -64,7 +64,7 @@ get_header(); ?>
         while ( $query->have_posts() ) {
             $query->the_post();
             $idx++;
-            $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
+            $bg_class= ($idx %2 ==1) ? 'g-bg':'w-bg';
 
 
 
