@@ -68,7 +68,7 @@ get_header(); ?>
 
 
 
-<div class="inner-container pb-6 mt-lg-5 mt-md-0 mt-sm-0 mt-0  mb-5 line-height">
+<div class="w-bg inner-container pt-5 pb-5 mt-lg-5 mt-md-0 mt-sm-0 mt-0  mb-5 line-height">
 
 
 
