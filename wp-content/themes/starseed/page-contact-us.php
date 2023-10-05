@@ -44,7 +44,7 @@ get_header(); ?>
 
                 <table class="text-start mx-auto">
                     <tr>
-                        <td>Whatsapp：</td>
+                        <td class="font-weight-bold">Whatsapp：</td>
                         <td>69995659</td>
                     </tr>
                     <tr>
