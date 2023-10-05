@@ -227,7 +227,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
     ?>
 
 
-        <div>
+        <div class="color-bg">
             <div class="row gx-0">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
                     <img class="w-100"
@@ -282,22 +282,23 @@ if( pms_is_member_of_plan( array( 178 ) ) )
             </div>
         </div>
     </div>
-    <?php
+</div>
+<?php
 }
 ?>
 
 
-    <div class="row login-hide align-items-center  position-relative mobile-column-reverse line-height main-entrance">
+<div class="row login-hide align-items-center  position-relative mobile-column-reverse line-height main-entrance">
 
 
-        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
-            <?php
+    <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
+        <?php
             echo get_field('content_3');
             ?>
 
-            <div class="text-center mb-5">
-                <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
-                    <?php 
+        <div class="text-center mb-5">
+            <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
+                <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
             {
                 echo '進入';
@@ -307,41 +308,40 @@ if( pms_is_member_of_plan( array( 178 ) ) )
                  echo '了解更多';
             }
                 ?>
-                </a>
-
-            </div>
-
-        </div>
-        <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
-            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png"
-                alt="">
+            </a>
 
         </div>
 
     </div>
+    <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
+        <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
+
+    </div>
+
+</div>
 
 
-    <div class="row login-hide align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
+<div class="row login-hide align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
 
-        <div class="col-lg-4 col-md-12 col-md-12 col-12">
-            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png"
-                alt="">
+    <div class="col-lg-4 col-md-12 col-md-12 col-12">
+        <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png"
+            alt="">
 
-        </div>
+    </div>
 
 
 
-        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div pe-4 ps-4">
+    <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div pe-4 ps-4">
 
-            <?php
+        <?php
             echo get_field('content_4');
             ?>
 
 
 
-            <div class="text-center">
+        <div class="text-center">
 
-                <a class="know-more-btn" href="<?php echo get_site_url();?>/ascension-mechanics-library/"> <?php 
+            <a class="know-more-btn" href="<?php echo get_site_url();?>/ascension-mechanics-library/"> <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
             {
                 echo '進入';
@@ -351,12 +351,12 @@ if( pms_is_member_of_plan( array( 178 ) ) )
                  echo '了解更多';
             }
                 ?></a>
-            </div>
-
-
         </div>
 
+
     </div>
+
+</div>
 
 
 
