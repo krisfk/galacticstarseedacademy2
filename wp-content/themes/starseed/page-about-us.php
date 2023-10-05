@@ -17,7 +17,7 @@
 get_header(); ?>
 
 
-
+<!-- 
 <img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;"
     src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
 <img class="star8 fadein-ele" style="  width: 305px !important;position: absolute;bottom: 20px;left: -140px;"
@@ -28,7 +28,7 @@ get_header(); ?>
     src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
 
-
+ -->
 
 
 
