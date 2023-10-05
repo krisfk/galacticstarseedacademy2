@@ -148,24 +148,6 @@ get_header(); ?>
 
 
 
-<div class="container mt-6  text-center inner-container pb-5">
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-<script type="text/javascript">
-
-
-</script>
 
 
 <?php
