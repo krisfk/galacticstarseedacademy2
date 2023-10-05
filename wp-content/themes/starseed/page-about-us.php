@@ -123,7 +123,7 @@ if( have_rows('content_sections') )
         {
 ?>
 
-<div class="row g-0  <?php echo $idx ==0 ? 'mt-5' : 'mt-6' ; ?> ">
+<div class="row g-0  <?php //echo $idx ==0 ? 'mt-5' : 'mt-6' ; ?> ">
 
     <div class="col-12 position-relative ">
 
