@@ -217,7 +217,7 @@ wp_login_form();
 </div>
 
 <div>
-    <div class="container mt-5  position-relative">
+    <div class=" mt-5  position-relative">
 
 
 
