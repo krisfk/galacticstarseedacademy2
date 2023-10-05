@@ -58,30 +58,39 @@ get_header(); ?>
     $args = array( 'product_cat' => 'workshop' );
     $query = new WP_Query( $args );
 
+    $idx=0;
     if ( $query->have_posts() ) {
         while ( $query->have_posts() ) {
             $query->the_post();
+            $idx++;
+            $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
+
+
+
+
 ?>
-    <div class="course-entry-div mb-5">
-        <div class="row">
+    <div class="course-entry-div-bg pt-5 pb-5 <?php echo $bg_class;?>">
+        <div class="course-entry-div mb-5">
+            <div class="row">
 
 
-            <div class="entry-row-bg col-lg-5 col-md-5 col-sm-12 col-12  position-relative overflow-hidden"
-                style="background: url(<?php echo get_the_post_thumbnail_url();?>); background-size: cover;background-repeat: no-repeat;background-position: center;">
-                <div class="course-entry-rect"></div>
+                <div class="entry-row-bg col-lg-5 col-md-5 col-sm-12 col-12  position-relative overflow-hidden"
+                    style="background: url(<?php echo get_the_post_thumbnail_url();?>); background-size: cover;background-repeat: no-repeat;background-position: center;">
+                    <div class="course-entry-rect"></div>
 
-                <img class="course-thumbnail" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-12  text-start p-5">
-                <h2><?php echo get_the_title();?></h2>
+                    <img class="course-thumbnail" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 col-12  text-start p-5">
+                    <h2><?php echo get_the_title();?></h2>
 
-                <div>
-                    <?php
+                    <div>
+                        <?php
                         echo get_the_excerpt();
                         ?>
-                </div>
+                    </div>
 
-                <div class="text-end"> <a href="<?php echo get_permalink();?>" class="know-more-btn2">了解更多</a>
+                    <div class="text-end"> <a href="<?php echo get_permalink();?>" class="know-more-btn2">了解更多</a>
+                    </div>
                 </div>
             </div>
         </div>
