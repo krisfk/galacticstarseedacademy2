@@ -28,17 +28,6 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 
 
 
-<img class="star0 fadein-ele" style=" width: 500px !important;position: absolute;top: 82px;left: -444px;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star0.png" alt="">
-
-<img class="star2 fadein-ele" style="  width: 320px !important;position: absolute;top: -2px;left: 540px;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star2.png" alt="">
-
-<img class="star3 fadein-ele " style=" width: 300px !important;position: absolute;top: 120px;right: -163px;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star3.png" alt="">
-
-<img class="star4 fadein-ele" style="width: 170px !important;position: absolute;bottom: 51px;left: 600px;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star4.png" alt="">
 
 
 
@@ -55,47 +44,48 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 // get_queried_object()->term_id
 ?>
 
-<div class="inner-container  mt-5 text-center">
-    <div class="row align-items-center justify-content-center gx-5">
+<div class="w-bg">
+    <div class="container inner-container  mt-5 text-center">
+        <div class="row align-items-center justify-content-center gx-5">
 
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  ">
-            <h1>
-                <?php echo get_the_title();?>
-                <?php //echo get_the_title();?>
-            </h1>
-        </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  ">
+                <h1>
+                    <?php echo get_the_title();?>
+                    <?php //echo get_the_title();?>
+                </h1>
+            </div>
 
-        <div class="mt-4 line-height">
-            <?php 
+            <div class="mt-4 line-height">
+                <?php 
             echo get_the_content();
             //echo get_the_content();?>
-        </div>
-
-
-        <a href="<?php echo get_site_url();?>/ascension-temple-login" class="page-reg-btn">揚升之鑰會員登入</a>
-        <a href="<?php echo get_site_url();?>/register" class="page-reg-btn">新會員加入</a>
-
-
-        <div class="row mt-3">
-
-            <div class="col-6">
-
-                <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('image_1'),'full')[0];?>"
-                    alt="">
-
-
             </div>
-            <div class="col-6">
 
-                <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('image_2'),'full')[0];?>"
-                    alt="">
 
+            <a href="<?php echo get_site_url();?>/ascension-temple-login" class="page-reg-btn">揚升之鑰會員登入</a>
+            <a href="<?php echo get_site_url();?>/register" class="page-reg-btn">新會員加入</a>
+
+
+            <div class="row mt-3">
+
+                <div class="col-6">
+
+                    <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('image_1'),'full')[0];?>"
+                        alt="">
+
+
+                </div>
+                <div class="col-6">
+
+                    <img class="w-100" src="<?php echo wp_get_attachment_image_src(get_field('image_2'),'full')[0];?>"
+                        alt="">
+
+                </div>
             </div>
-        </div>
 
+        </div>
     </div>
 </div>
-
 </div>
 
 
