@@ -522,6 +522,7 @@ a.add-to-cart-btn:hover {
 .slick-dots li.slick-active button:before {
   opacity: 0.75;
   color: white !important;
+  filter: brightness(0.2);
 }
 
 .slick-dots li button:before {
@@ -530,6 +531,7 @@ a.add-to-cart-btn:hover {
   line-height: 20px;
   position: absolute;
   top: 0;
+  filter: brightness(0.2);
   left: 0;
   width: 20px;
   height: 20px;
