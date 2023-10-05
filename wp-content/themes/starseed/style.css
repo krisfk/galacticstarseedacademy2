@@ -596,8 +596,7 @@ a.add-to-cart-btn:hover {
   padding: 0;
   margin: 0;
   width: max-content;
-  background: none;
-  /* rgb(121 62 82 / 90%); */
+  background: rgb(121 62 82 / 90%);
   padding: 10px 0 10px 0;
   /* backdrop-filter: blur(5px); */
   /* -webkit-backdrop-filter: blur(5px); */
@@ -2654,6 +2653,9 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
+  .mobile-menu-submenu {
+    background: none;
+  }
   .top-bar-bg-div {
     display: block;
     width: 100%;
