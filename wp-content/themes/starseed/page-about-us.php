@@ -61,11 +61,24 @@ if( have_rows('content_sections') )
         $subtitle = get_sub_field('subtitle_text');
         $content = get_sub_field('content');
         $heading_size= get_sub_field('heading_size');
+
+        if($idx %2 ==1)
+        {
+            $bg_class="w-bg";    
+        }
+        else
+        {
+            $bg_class="g-bg";    
+   
+        }
+
+
         if($idx %2 ==1)
         {
                 ?>
-<div class="container inner-container mt-4 text-center mb-5">
+<!-- <div class="container inner-container mt-4 text-center mb-5"> -->
 
+<div class="container container mt-4 <?php echo $bg_class;?> text-center mb-5">
 
 
 
