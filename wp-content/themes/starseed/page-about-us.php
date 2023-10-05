@@ -17,31 +17,21 @@
 get_header(); ?>
 
 
-<!-- 
-<img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
-<img class="star8 fadein-ele" style="  width: 305px !important;position: absolute;bottom: 20px;left: -140px;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
-<img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;bottom: -120px;left: 543px;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
-<img class="star10 fadein-ele" style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
 
- -->
+<div>
 
+    <div class="container">
+        <div class="inner-container container pb-6 mt-5 text-center">
+            <div class="row align-items-center justify-content-center gx-5 fadein-ele">
 
+                <?php echo get_the_content();?>
 
-<div class="container">
-    <div class="inner-container container pb-6 mt-5 text-center">
-        <div class="row align-items-center justify-content-center gx-5 fadein-ele">
-
-            <?php echo get_the_content();?>
-
+            </div>
         </div>
     </div>
+    dddd
 </div>
-
 </div>
 
 
@@ -60,19 +50,7 @@ if( have_rows('content_sections') )
                 ?>
 <div class="container inner-container mt-4 text-center mb-5">
 
-    <!-- <img class="star7 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-200,-100); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
-    <img class="star8 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;bottom: <?php echo rand(20,100); ?>px;left: <?php echo rand(-300,-250); ?>px;width: <?php echo rand(250,300); ?>px !important;opacity: 0;"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt=""> -->
-    <!-- <img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;bottom: -120px;left: 543px;"
-        src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
-    <img class="star10 fadein-ele"
-        style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
-        src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt=""> -->
+
 
 
     <?php if($subtitle)
