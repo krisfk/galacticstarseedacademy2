@@ -508,7 +508,7 @@ a.add-to-cart-btn:hover {
   display: flex;
   width: 100%;
   min-height: 470px;
-  /* background: url(./assets/images/purple-rect-bg-2.png); */
+  background: url(./assets/images/purple-rect-bg-2.png);
   /* background-size: 100% 100%; */
   text-align: center;
   justify-content: center;
@@ -550,6 +550,8 @@ a.add-to-cart-btn:hover {
   display: block;
   background-position: center;
   background-repeat: no-repeat;
+  filter: tint;
+  filter: brightness(0.2);
 }
 
 .slick-next:before {
@@ -561,6 +563,7 @@ a.add-to-cart-btn:hover {
   display: block;
   background-position: center;
   background-repeat: no-repeat;
+  filter: brightness(0.2);
 }
 
 .slick-dots {
