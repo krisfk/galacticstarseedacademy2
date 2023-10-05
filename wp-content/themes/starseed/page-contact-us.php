@@ -67,7 +67,7 @@ get_header(); ?>
                 </table>
 
 
-                <img class="center-photo mt-3"
+                <img class="center-photo mt-5"
                     src="https://galacticstarseedacademy.com/wp-content/uploads/2023/03/center-photo.jpeg" alt="">
             </div>
 
