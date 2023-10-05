@@ -2813,17 +2813,16 @@ h1 {
     /* transform: translate(0, -50%); */
   }
   .know-more-btn {
-    display: block;
+    display: inline-block;
     background: #fff;
-    color: #4e1458;
-    line-height: 1;
+    color: #fff;
     padding: 10px 25px;
     text-decoration: none;
     border-radius: 20px;
-    margin: 2rem auto 0 auto;
+    margin: 1rem 0 0 0;
     transition: 0.2s all;
-    width: fit-content;
-    width: -moz-fit-content;
+    line-height: 1;
+    background: #a55683;
   }
   .bottom-container-wrapper {
     display: block;
