@@ -120,7 +120,7 @@ if( have_rows('content_sections') )
         if($idx %2 ==1)
         {
                 ?>
-<div class="<?php echo $bg_class;?>">
+<div class="<?php echo $bg_class;?> pt-5 pb-5">
     <div class="container inner-container mt-4 text-center mb-5">
 
 
