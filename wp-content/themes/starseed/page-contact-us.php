@@ -39,10 +39,10 @@ get_header(); ?>
 
         <div class="mt-4">
 
-            <div>
+            <div class-="text-center">
                 <!-- 我們樂意為您提供任何協助 -->
 
-                <table>
+                <table class="text-start">
                     <tr>
                         <td>Whatsapp：</td>
                         <td>69995659</td>
