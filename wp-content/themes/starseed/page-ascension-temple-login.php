@@ -216,45 +216,27 @@ wp_login_form();
     </div>
 </div>
 
-<div class="container mt-5  position-relative">
+<div class="test">
+    <div class="container mt-5  position-relative">
 
-    <!-- 
-    <img class="left-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:0;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-200,-100); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
 
-    <img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:0;position: absolute;top: <?php echo rand(500,600); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-200,-100); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
 
-    <img class="left-star fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:0;position: absolute;top: <?php echo rand(700,900); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-200,-100); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
-
-    <img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:0;position: absolute;top: <?php echo rand(1100,1300); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-200,-100); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt=""> -->
-
-    <?php
+        <?php
 if( pms_is_member_of_plan( array( 178 ) ) ) 
 {
     ?> <div class="row gx-0">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
-            <img class="w-100"
-                style="max-height:360px; width:auto !important;margin:0 auto 2rem auto;display:inline-block;"
-                src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
-            <?php
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
+                <img class="w-100"
+                    style="max-height:360px; width:auto !important;margin:0 auto 2rem auto;display:inline-block;"
+                    src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
+                <?php
         echo get_field('content_3');
         ?>
 
 
-            <div class="text-center mb-5">
-                <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
-                    <?php 
+                <div class="text-center mb-5">
+                    <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
+                        <?php 
         if( pms_is_member_of_plan( array( 178 ) ) ) 
         {
             echo '進入';
@@ -264,23 +246,23 @@ if( pms_is_member_of_plan( array( 178 ) ) )
              echo '了解更多';
         }
             ?>
-                </a>
+                    </a>
+
+                </div>
 
             </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
 
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
-
-            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png"
-                alt="">
-            <?php
+                <img class="w-100 bosco-foto"
+                    src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png" alt="">
+                <?php
         echo get_field('content_4');
         ?>
 
 
-            <div class="text-center mb-5">
-                <a class="know-more-btn" href="<?php echo get_site_url();?>/ascension-mechanics-library">
-                    <?php 
+                <div class="text-center mb-5">
+                    <a class="know-more-btn" href="<?php echo get_site_url();?>/ascension-mechanics-library">
+                        <?php 
         if( pms_is_member_of_plan( array( 178 ) ) ) 
         {
             echo '進入';
@@ -290,15 +272,16 @@ if( pms_is_member_of_plan( array( 178 ) ) )
              echo '了解更多';
         }
             ?>
-                </a>
+                    </a>
 
+                </div>
             </div>
         </div>
-    </div>
-    <?php
+        <?php
 }
 ?>
 
+    </div>
 
     <div class="row login-hide align-items-center  position-relative mobile-column-reverse line-height main-entrance">
 
