@@ -265,7 +265,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
         ?>
 
 
-                    <div class="text-center mb-5">
+                    <div class="text-start mb-5">
                         <a class="know-more-btn" href="<?php echo get_site_url();?>/ascension-mechanics-library">
                             <?php 
         if( pms_is_member_of_plan( array( 178 ) ) ) 
@@ -297,7 +297,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
             echo get_field('content_3');
             ?>
 
-        <div class="text-center mb-5">
+        <div class="text-start mb-5">
             <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
                 <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
