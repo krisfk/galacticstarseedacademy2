@@ -114,7 +114,7 @@ if( have_rows('content_sections') )
         $subtitle = get_sub_field('subtitle_text');
         $content = get_sub_field('content');
         $heading_size= get_sub_field('heading_size');
-
+        echo 3324432432423;
         $bg_class= ($idx %2 ==1) ? 'b-bg':'w-bg';
         if($idx %2 ==1)
         {
@@ -153,8 +153,7 @@ if( have_rows('content_sections') )
 <div class="row g-0  <?php echo $idx ==0 ? 'mt-5' : 'mt-6' ; ?> ">
 
     <div class="col-12 position-relative">
-        <?php echo 999999;?>
-        <div class="about-div-wrapper  pt-5 pb-5 <?php echo $bg_class;?>">
+        <div class="about-div-wrapper  pt-5 pb-5 ">
             <div class="about-div">
                 <div class="container inner-container">
 
