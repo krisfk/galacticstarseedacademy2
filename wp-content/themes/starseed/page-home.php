@@ -152,7 +152,7 @@ get_header(); ?>
     <div class="container text-center">
         <h1>聽聽別人對Xylas的評價：</h1>
 
-        <div class="content-txt-div mt-4">
+        <div class="content-txt-div mt-3">
 
 
 
