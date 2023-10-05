@@ -44,23 +44,23 @@ get_header(); ?>
 
                 <table class="text-start mx-auto">
                     <tr>
-                        <td class="font-weight-bold">Whatsapp：</td>
+                        <td class="fw-bold">Whatsapp：</td>
                         <td>69995659</td>
                     </tr>
                     <tr>
-                        <td>Facebook：</td>
+                        <td class="fw-bold">Facebook：</td>
                         <td>Galactic Starseed Academy 星際種子學院</td>
                     </tr>
                     <tr>
-                        <td>Instagram：</td>
+                        <td class="fw-bold">Instagram：</td>
                         <td>g.s.a.official</td>
                     </tr>
                     <tr>
-                        <td>Youtube：</td>
+                        <td class="fw-bold">Youtube：</td>
                         <td>Xylas揚升科學</td>
                     </tr>
                     <tr>
-                        <td>地址：</td>
+                        <td class="fw-bold">地址：</td>
                         <td>觀塘創業街31號LT Tower 1002室</td>
                     </tr>
 
