@@ -102,7 +102,7 @@
                                             <div class="col-10 text-end">
 
                                                 <div class="top-menu-ul-wrapper">
-                                                    <ul class=" top-menu-ul">
+                                                    <ul class=" top-menu-ul m-0">
 
                                                         <li class="mobile-logo-li">
                                                             <!-- <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png"
