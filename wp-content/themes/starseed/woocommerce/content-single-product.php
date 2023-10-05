@@ -357,6 +357,7 @@ if(get_field('show_client_case_share'))
 {
     $idx++;
     $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
+    echo $idx;
 
     ?>
 <div class="sharing-div pt-5 pb-5 <?php echo $bg_class;?>">
