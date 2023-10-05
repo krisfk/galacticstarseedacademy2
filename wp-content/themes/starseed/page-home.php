@@ -153,7 +153,15 @@ get_header(); ?>
         <h1>聽聽別人對Xylas的評價：</h1>
 
         <div class="content-txt-div mt-4">
-            fdfs
+
+
+
+            <video width="320" height="240" controls>
+                <source src="http://64.227.13.14/starseed/wp-content/uploads/2023/10/file_example_MP4_480_1_5MG.mp4"
+                    type="video/mp4">
+                <!-- <source src="movie.ogg" type="video/ogg"> -->
+                <!-- Your browser does not support the video tag. -->
+            </video>
 
 
         </div>
