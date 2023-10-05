@@ -19,7 +19,7 @@ get_header(); ?>
 
 
 
-
+<!-- 
 <img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;"
     src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
 <img class="star8 fadein-ele" style="  width: 305px !important;position: absolute;bottom: 20px;left: -140px;"
@@ -27,7 +27,7 @@ get_header(); ?>
 <img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;bottom: -120px;left: 543px;"
     src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
 <img class="star10 fadein-ele" style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
+    src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt=""> -->
 
 <div class="inner-container  mt-lg-5 mt-md-5 mt-sm-5 mt-0 text-center">
     <div class="row align-items-center justify-content-center gx-5 fadein-ele">
