@@ -71,22 +71,22 @@ get_header(); ?>
 <div class="w-bg inner-container pt-5 pb-5 mt-lg-5 mt-md-0 mt-sm-0 mt-0  mb-5 line-height">
 
 
-    <div class="container">
 
-        <div class="row align-items-top justify-content-center gx-5 mobile-column-reverse">
 
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top " id="form-top">
+    <div class="row align-items-top justify-content-center gx-5 mobile-column-reverse">
 
-                <h1>揚升聖殿
-                </h1>
-                <?php
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top " id="form-top">
+
+            <h1>揚升聖殿
+            </h1>
+            <?php
                         if( !pms_is_member_of_plan( array( 178 ) ) ) 
 {
     echo get_field('content_1');
 
 }
             ?>
-                <!-- 揚升之鑰是一個為靈修人士提供資源以學習成長和提升能量的平台。這個平台是一個讓靈修人士可以接觸一些平時不會接觸到的知識和宇宙頻率的媒介。
+            <!-- 揚升之鑰是一個為靈修人士提供資源以學習成長和提升能量的平台。這個平台是一個讓靈修人士可以接觸一些平時不會接觸到的知識和宇宙頻率的媒介。
 
 
             <div class="mt-4">每月僅 HKD $30 ，即可申請成為星際種子學院會員 <br>
@@ -95,38 +95,38 @@ get_header(); ?>
                 現在加入，即享7日免費會員體驗，您可以隨時取消。
             </div> -->
 
-                <?php if( !pms_is_member_of_plan( array( 178 ) ) ) 
+            <?php if( !pms_is_member_of_plan( array( 178 ) ) ) 
             {
                 ?>
-                <div class="form-div mt-5 form-div-login desktop-form-div-login">
+            <div class="form-div mt-5 form-div-login desktop-form-div-login">
 
-                    <div class="text-center">
-                        <h4>會員登入</h4>
-                    </div>
-                    <?php
+                <div class="text-center">
+                    <h4>會員登入</h4>
+                </div>
+                <?php
 if($_GET['f']==1){
     ?>
-                    <div class="wrong-login-msg">登入資料不正確</div>
+                <div class="wrong-login-msg">登入資料不正確</div>
 
-                    <?php
+                <?php
 
 }
 ?>
-                    <?php
+                <?php
 
 wp_login_form();
 ?>
 
 
-                    <a href="<?php echo get_site_url();?>/register" class="d-inline-block register-a">新會員加入</a>
+                <a href="<?php echo get_site_url();?>/register" class="d-inline-block register-a">新會員加入</a>
 
 
-
-                </div>
-                <?php
-            }?>
 
             </div>
+            <?php
+            }?>
+
+
 
 
 
