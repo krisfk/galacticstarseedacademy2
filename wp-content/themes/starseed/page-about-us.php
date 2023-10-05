@@ -78,19 +78,20 @@ if( have_rows('content_sections') )
                 ?>
 <!-- <div class="container inner-container mt-4 text-center mb-5"> -->
 
-<div class="container container mt-4 <?php echo $bg_class;?> text-center mb-5">
+<div class="<?php echo $bg_class;?>">
+    <div class="container container mt-4  text-center mb-5">
 
 
 
-    <?php if($subtitle)
+        <?php if($subtitle)
 {
     ?>
 
-    <?php 
+        <?php 
     if($heading_size=='h1')
     {
         ?>
-    <h1 class="text-center""><?php echo $subtitle;?></h1>
+        <h1 class="text-center""><?php echo $subtitle;?></h1>
 
     <?php
     }
@@ -99,20 +100,21 @@ if( have_rows('content_sections') )
         ?>
     <h2 class=" text-center"><?php echo $subtitle;?></h2>
 
-        <?php
+            <?php
     }
     
 
         ?>
-        <?php
+            <?php
 }
 ?>
 
-        <div class="mt-3 text-start content-txt-div">
+            <div class="mt-3 text-start content-txt-div">
 
-            <?php echo $content;?>
-        </div>
+                <?php echo $content;?>
+            </div>
 
+    </div>
 </div>
 
 <?php
