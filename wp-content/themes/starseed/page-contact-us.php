@@ -40,10 +40,34 @@ get_header(); ?>
         <div class="mt-4">
 
             <div>
-                我們樂意為您提供任何協助
+                <!-- 我們樂意為您提供任何協助 -->
+
+                <table>
+                    <tr>
+                        <td>Whatsapp：</td>
+                        <td>69995659</td>
+                    </tr>
+                    <tr>
+                        <td>Facebook：</td>
+                        <td>Galactic Starseed Academy 星際種子學院</td>
+                    </tr>
+                    <tr>
+                        <td>Instagram：</td>
+                        <td>g.s.a.official</td>
+                    </tr>
+                    <tr>
+                        <td>Youtube：</td>
+                        <td>Xylas揚升科學</td>
+                    </tr>
+                    <tr>
+                        <td>地址：</td>
+                        <td>觀塘創業街31號LT Tower 1002室</td>
+                    </tr>
+
+                </table>
+
             </div>
 
-            <div></div>
 
 
 
