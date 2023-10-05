@@ -89,7 +89,7 @@ get_header(); ?>
 
 
         </div>
-        <a href="<?php echo get_site_url();?>/key" class="know-more-btn">立即了解更多</a>
+        <a href="<?php echo get_site_url();?>/ascension-temple-login" class="know-more-btn">立即了解更多</a>
 
 
     </div>
@@ -125,7 +125,7 @@ get_header(); ?>
                         </div>
 
 
-                        <a href="http://64.227.13.14/starseed/about-us" class="know-more-btn">了解更多</a>
+                        <a href="<?php echo get_site_url();?>/about-us" class="know-more-btn">了解更多</a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
                         <img class="w-100 bosco-foto"
