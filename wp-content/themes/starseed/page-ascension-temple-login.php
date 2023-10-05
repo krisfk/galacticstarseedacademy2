@@ -343,7 +343,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 
 
 
-                <div class="text-center">
+                <div class="text-start">
 
                     <a class="know-more-btn" href="<?php echo get_site_url();?>/ascension-mechanics-library/"> <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
