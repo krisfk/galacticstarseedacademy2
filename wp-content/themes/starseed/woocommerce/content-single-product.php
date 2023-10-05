@@ -355,9 +355,9 @@ if(get_field('show_heal_flow'))
 
 if(get_field('show_client_case_share'))
 {
-    $idx++;
+    // $idx++;
     $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
-    echo $idx;
+    // echo $idx;
 
     ?>
 <div class="sharing-div pt-5 pb-5 <?php echo $bg_class;?>">
@@ -408,7 +408,7 @@ if(get_field('show_client_case_share'))
 
 if(get_field('show_notice_content'))
 {
-    $idx++;
+    // $idx++;
     $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
 
     ?>
