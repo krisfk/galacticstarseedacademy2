@@ -363,7 +363,7 @@ if(get_field('show_client_case_share'))
 <div class="sharing-div pt-5 pb-5 <?php echo $bg_class;?>">
 
 
-    <div class="container inner-container pt-5 pb-5">
+    <div class="container inner-container ">
         <div class="slides">
 
 
