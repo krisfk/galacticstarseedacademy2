@@ -120,30 +120,31 @@ if( have_rows('content_sections') )
         if($idx %2 ==1)
         {
                 ?>
-<div class="container inner-container mt-4 text-center mb-5">
+<div class="<?php echo $bg_class;?>">
+    <div class="container inner-container mt-4 text-center mb-5">
 
 
 
-    <div class="row">
-        <div class="col-12 gx-lg-4 gx-md-5 gx-sm-5 gx-5 ">
-            <?php if($subtitle)
+        <div class="row">
+            <div class="col-12 gx-lg-4 gx-md-5 gx-sm-5 gx-5 ">
+                <?php if($subtitle)
 {
     ?>
 
-            <h2 class=" text-center"><?php echo $subtitle;?></h2>
+                <h2 class=" text-center"><?php echo $subtitle;?></h2>
 
-            <?php
+                <?php
 }
 ?>
 
-            <div class="mt-3 text-start content-txt-div">
+                <div class="mt-3 text-start content-txt-div">
 
-                <?php echo $content;?>
+                    <?php echo $content;?>
+                </div>
             </div>
+
         </div>
-
     </div>
-
 </div>
 
 <?php
