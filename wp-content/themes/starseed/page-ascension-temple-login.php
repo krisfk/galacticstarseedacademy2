@@ -289,17 +289,20 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 ?>
 
 
-<div class="row login-hide align-items-center  position-relative mobile-column-reverse line-height main-entrance">
+<div class="w-bg">
+    <div class="container">
+        <div
+            class="row login-hide align-items-center  position-relative mobile-column-reverse line-height main-entrance">
 
 
-    <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
-        <?php
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
+                <?php
             echo get_field('content_3');
             ?>
 
-        <div class="text-start mb-5">
-            <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
-                <?php 
+                <div class="text-start mb-5">
+                    <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
+                        <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
             {
                 echo '進入';
@@ -309,18 +312,20 @@ if( pms_is_member_of_plan( array( 178 ) ) )
                  echo '了解更多';
             }
                 ?>
-            </a>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
+                <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png"
+                    alt="">
+
+            </div>
 
         </div>
-
     </div>
-    <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
-        <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
-
-    </div>
-
 </div>
-
 
 <div class="color-bg g-bg pt-5 pb-5">
     <div class="container">
