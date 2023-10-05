@@ -218,7 +218,7 @@ wp_login_form();
 
 <div class="container mt-5  position-relative">
 
-
+    <!-- 
     <img class="left-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
         style="z-index:0;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-200,-100); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
@@ -237,7 +237,7 @@ wp_login_form();
     <img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
         style="z-index:0;position: absolute;top: <?php echo rand(1100,1300); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-200,-100); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
+        alt=""> -->
 
     <?php
 if( pms_is_member_of_plan( array( 178 ) ) ) 
