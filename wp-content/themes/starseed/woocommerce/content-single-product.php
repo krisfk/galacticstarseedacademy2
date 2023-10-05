@@ -356,7 +356,7 @@ if(get_field('show_heal_flow'))
 if(get_field('show_client_case_share'))
 {
     ?>
-<div class="sharing-div pt-5 pb-5">
+<div class="sharing-div pt-5 pb-5 g-bg">
 
 
     <div class="container inner-container pt-5 pb-5">
