@@ -125,9 +125,9 @@ if( have_rows('content_sections') )
 
     <div class="col-12 position-relative ">
 
-        <div class="about-div-wrapper  pt-5 pb-5">
+        <div class="about-div-wrapper  pt-5 pb-5 <?php echo $bg_class;?>">
             <div class="about-div">
-                <div class="container <?php echo $bg_class;?>">
+                <div class="container ">
 
                     <div class="row align-items-center g-0">
                         <div class="col-12 text-left">
@@ -334,7 +334,7 @@ if( have_rows('content_sections') )
 
 
 
-<div class="container mt-5 text-center pb-5 <?php echo $bg_class;?>">
+<div class="container mt-5 text-center pb-5 ">
 
 
 </div>
