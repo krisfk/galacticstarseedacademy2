@@ -79,7 +79,7 @@ if( have_rows('content_sections') )
 <!-- <div class="container inner-container mt-4 text-center mb-5"> -->
 
 <div class="<?php echo $bg_class;?>">
-    <div class="container container mt-4  text-center mb-5 pt-5 pb-5 ">
+    <div class="container container mt-4  text-center  pt-5 pb-5 ">
 
 
 
