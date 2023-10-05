@@ -256,7 +256,7 @@ if(get_field('icon_and_text_structure'))
             <a href="javascript:void(0);" class="soul-healing-icon-a  mt-5" data-group="<?php echo $idx2;?>"
                 rel="<?php echo get_sub_field('section_content');?>">
 
-                <img class="w-lg-75 w-md-100  w-sm-100  w-100   icon-img"
+                <img class="w-lg-75 w-md-100  w-sm-100  w-100   icon-img " style="background:#fff;"
                     src="<?php echo wp_get_attachment_image_src(get_sub_field('icon'),'Full')[0];?>" alt="">
 
                 <div class="d-inline-flex align-items-center mt-3">
