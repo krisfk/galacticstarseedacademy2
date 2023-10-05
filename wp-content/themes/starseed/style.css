@@ -632,7 +632,7 @@ a.add-to-cart-btn:hover {
   overflow: hidden;
   position: relative;
   line-height: 2.5;
-  background: rgb(93 35 94 / 45%);
+  /* background: rgb(93 35 94 / 45%); */
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
