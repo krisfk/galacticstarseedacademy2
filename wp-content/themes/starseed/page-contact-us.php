@@ -43,7 +43,11 @@ get_header(); ?>
                 我們樂意為您提供任何協助
             </div>
 
-            <div class="contact-table-div mt-5 row">
+            <div>fdsf</div>
+
+
+
+            <!-- <div class="contact-table-div mt-5 row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 contact-icon-div">
                     <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-1.png" alt=""></div>
                     <div class="mt-2">5340 8275</div>
@@ -69,7 +73,7 @@ get_header(); ?>
                     <div class="mt-2"> <a href="mailto:boscofth0506@gmail.com"
                             target="_blank">boscofth0506@gmail.com</a></div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- <div class="contact-table-div mt-5">
                 <table class="mx-auto text-start contact-table mt-5">
