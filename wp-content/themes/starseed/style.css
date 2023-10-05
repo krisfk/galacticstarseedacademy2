@@ -213,6 +213,10 @@ body {
   z-index: 200;
 }
 
+..about-div-wrapper p {
+  margin: 0;
+}
+
 .ball {
   display: block;
   width: 100px;
