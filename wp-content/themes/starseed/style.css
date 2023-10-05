@@ -2342,6 +2342,8 @@ h2 {
   /* position: absolute; */
   /* top: 0; */
   /* left: 0; */
+  position: relative;
+  z-index: 1000;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   background: rgb(133 23 89 / 75%);
