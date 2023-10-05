@@ -216,7 +216,7 @@ wp_login_form();
     </div>
 </div>
 
-<div class="test">
+<div>
     <div class="container mt-5  position-relative">
 
 
@@ -224,19 +224,23 @@ wp_login_form();
         <?php
 if( pms_is_member_of_plan( array( 178 ) ) ) 
 {
-    ?> <div class="row gx-0">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
-                <img class="w-100"
-                    style="max-height:360px; width:auto !important;margin:0 auto 2rem auto;display:inline-block;"
-                    src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
-                <?php
+    ?>
+
+
+        <div>
+            <div class="row gx-0">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
+                    <img class="w-100"
+                        style="max-height:360px; width:auto !important;margin:0 auto 2rem auto;display:inline-block;"
+                        src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
+                    <?php
         echo get_field('content_3');
         ?>
 
 
-                <div class="text-center mb-5">
-                    <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
-                        <?php 
+                    <div class="text-center mb-5">
+                        <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
+                            <?php 
         if( pms_is_member_of_plan( array( 178 ) ) ) 
         {
             echo '進入';
@@ -246,23 +250,23 @@ if( pms_is_member_of_plan( array( 178 ) ) )
              echo '了解更多';
         }
             ?>
-                    </a>
+                        </a>
+
+                    </div>
 
                 </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
 
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
-
-                <img class="w-100 bosco-foto"
-                    src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png" alt="">
-                <?php
+                    <img class="w-100 bosco-foto"
+                        src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png" alt="">
+                    <?php
         echo get_field('content_4');
         ?>
 
 
-                <div class="text-center mb-5">
-                    <a class="know-more-btn" href="<?php echo get_site_url();?>/ascension-mechanics-library">
-                        <?php 
+                    <div class="text-center mb-5">
+                        <a class="know-more-btn" href="<?php echo get_site_url();?>/ascension-mechanics-library">
+                            <?php 
         if( pms_is_member_of_plan( array( 178 ) ) ) 
         {
             echo '進入';
@@ -272,8 +276,9 @@ if( pms_is_member_of_plan( array( 178 ) ) )
              echo '了解更多';
         }
             ?>
-                    </a>
+                        </a>
 
+                    </div>
                 </div>
             </div>
         </div>
@@ -281,19 +286,19 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 }
 ?>
 
-    </div>
 
-    <div class="row login-hide align-items-center  position-relative mobile-column-reverse line-height main-entrance">
+        <div
+            class="row login-hide align-items-center  position-relative mobile-column-reverse line-height main-entrance">
 
 
-        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
-            <?php
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
+                <?php
             echo get_field('content_3');
             ?>
 
-            <div class="text-center mb-5">
-                <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
-                    <?php 
+                <div class="text-center mb-5">
+                    <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-meditation-playlist">
+                        <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
             {
                 echo '進入';
@@ -303,41 +308,42 @@ if( pms_is_member_of_plan( array( 178 ) ) )
                  echo '了解更多';
             }
                 ?>
-                </a>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
+                <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png"
+                    alt="">
 
             </div>
 
         </div>
-        <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
-            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png"
-                alt="">
-
-        </div>
-
-    </div>
 
 
-    <div class="row login-hide align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
+        <div class="row login-hide align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
 
-        <div class="col-lg-4 col-md-12 col-md-12 col-12">
-            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png"
-                alt="">
+            <div class="col-lg-4 col-md-12 col-md-12 col-12">
+                <img class="w-100 bosco-foto"
+                    src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png" alt="">
 
-        </div>
+            </div>
 
 
 
-        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div pe-4 ps-4">
+            <div
+                class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div pe-4 ps-4">
 
-            <?php
+                <?php
             echo get_field('content_4');
             ?>
 
 
 
-            <div class="text-center">
+                <div class="text-center">
 
-                <a class="know-more-btn" href="<?php echo get_site_url();?>/ascension-mechanics-library/"> <?php 
+                    <a class="know-more-btn" href="<?php echo get_site_url();?>/ascension-mechanics-library/"> <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
             {
                 echo '進入';
@@ -347,85 +353,85 @@ if( pms_is_member_of_plan( array( 178 ) ) )
                  echo '了解更多';
             }
                 ?></a>
+                </div>
+
+
             </div>
 
-
         </div>
+
+
 
     </div>
 
 
 
-</div>
-
-
-
-<?php if( pms_is_member_of_plan( array( 178 ) ) ) 
+    <?php if( pms_is_member_of_plan( array( 178 ) ) ) 
             {
                 ?>
-<style type="text/css">
-.login-hide {
-    display: none;
-}
-</style>
-<?php
+    <style type="text/css">
+    .login-hide {
+        display: none;
+    }
+    </style>
+    <?php
             }
                 ?>
 
-<script type="text/javascript">
-$(function() {
+    <script type="text/javascript">
+    $(function() {
 
-    // if ($('.pms-account-subscription-details-table').length > 0) {
-    // window.location = '<?php echo get_site_url();?>/account';
-    // }
+        // if ($('.pms-account-subscription-details-table').length > 0) {
+        // window.location = '<?php echo get_site_url();?>/account';
+        // }
 
-    // form-div-register
-    $('#pms_register-form').addClass('form-div-register');
-    $('#pms_register-form').addClass('form-div')
-    $('#pms_register-form').addClass('mt-5');
-    $('.pms-form-fields-wrapper,.pms-field-section').addClass('row');
-    $('.pms-field-type-heading,.pms-field-subscriptions').removeClass('col-6')
-    // $('.pms-field-subscriptions').addClass('col-12');
-    // $('.pms-field-subscriptions').addClass('m-0');
-    $('.pms-field').addClass('col-lg-6');
-    $('.pms-field').addClass('col-md-6');
-    $('.pms-field').addClass('col-sm-12');
-    $('.pms-field').addClass('col-12');
-    $('.pms-field-type-heading,.pms-field-subscriptions').removeClass('col-lg-6');
-    $('.pms-field-type-heading,.pms-field-subscriptions').removeClass('col-md-6');
-    $('.pms-field-type-heading,.pms-field-subscriptions').removeClass('col-sm-6');
-    $('.pms-field-type-heading').addClass('col-12 mt-3');
-    $('.pms-field-subscriptions').addClass('col-12 m-0');
-
-
+        // form-div-register
+        $('#pms_register-form').addClass('form-div-register');
+        $('#pms_register-form').addClass('form-div')
+        $('#pms_register-form').addClass('mt-5');
+        $('.pms-form-fields-wrapper,.pms-field-section').addClass('row');
+        $('.pms-field-type-heading,.pms-field-subscriptions').removeClass('col-6')
+        // $('.pms-field-subscriptions').addClass('col-12');
+        // $('.pms-field-subscriptions').addClass('m-0');
+        $('.pms-field').addClass('col-lg-6');
+        $('.pms-field').addClass('col-md-6');
+        $('.pms-field').addClass('col-sm-12');
+        $('.pms-field').addClass('col-12');
+        $('.pms-field-type-heading,.pms-field-subscriptions').removeClass('col-lg-6');
+        $('.pms-field-type-heading,.pms-field-subscriptions').removeClass('col-md-6');
+        $('.pms-field-type-heading,.pms-field-subscriptions').removeClass('col-sm-6');
+        $('.pms-field-type-heading').addClass('col-12 mt-3');
+        $('.pms-field-subscriptions').addClass('col-12 m-0');
 
 
 
-    $('<a href="#form-top" class="d-inline-block login-a">會員登入</a>').insertBefore($(
-        '.pms-form-submit'));
-    // $('.pms-field').addClass('mt-3');
-
-    $('#pms_register-form').prepend('<div class="text-center"><h4>新會員加入</h4></div>');
 
 
-    $('.register-a').click(function() {
-        // $('.form-div').fadeOut(0);
-        // $('.form-div-register').fadeIn(0);
+        $('<a href="#form-top" class="d-inline-block login-a">會員登入</a>').insertBefore($(
+            '.pms-form-submit'));
+        // $('.pms-field').addClass('mt-3');
+
+        $('#pms_register-form').prepend('<div class="text-center"><h4>新會員加入</h4></div>');
+
+
+        $('.register-a').click(function() {
+            // $('.form-div').fadeOut(0);
+            // $('.form-div-register').fadeIn(0);
+        })
+
+        $('.login-a').click(function() {
+            $('.form-div').fadeOut(0);
+            $('.form-div-login').fadeIn(0);
+
+        });
+        $('#pms_billing_city,#pms_billing_state').val('Hong Kong');
+        $('#pms_billing_country').val('HK');
+        // $('#pms_billing_address').val('Hong Kong');
     })
-
-    $('.login-a').click(function() {
-        $('.form-div').fadeOut(0);
-        $('.form-div-login').fadeIn(0);
-
-    });
-    $('#pms_billing_city,#pms_billing_state').val('Hong Kong');
-    $('#pms_billing_country').val('HK');
-    // $('#pms_billing_address').val('Hong Kong');
-})
-</script>
+    </script>
 
 
-<?php
+    <?php
 
 
 get_footer();
