@@ -1488,9 +1488,18 @@ input[type='submit'] {
   box-shadow: none;
   text-shadow: none;
   border: 1px solid #fff;
-  color: #fff;
+  color: #fff !important;
   border-radius: 20px;
   width: initial;
+  display: inline-block;
+  background: #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 1rem 0 0 0;
+  transition: 0.2s all;
+  line-height: 1;
+  background: #a55683 !important;
 }
 
 .woocommerce ul.order_details {
