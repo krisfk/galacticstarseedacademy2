@@ -152,7 +152,7 @@ if( have_rows('content_sections') )
         else
         {
 ?>
-<div class="row g-0  <?php echo $idx ==0 ? 'mt-5' : 'mt-6' ; ?> ">
+<div class="row g-0  <?php echo $idx ==0 ? 'mt-5' : 'mt-5' ; ?> ">
 
     <div class="col-12 position-relative">
         <div class="about-div-wrapper  pt-5 pb-5 <?php echo $bg_class;?>">
