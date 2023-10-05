@@ -2184,14 +2184,26 @@ span.jp-artist {
   color: #fff;
   width: fit-content !important;
   margin: 2rem 0.5rem !important;
+  display: inline-block;
+  background: #fff;
+  color: #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 1rem 0 0 0;
+  transition: 0.2s all;
+  line-height: 1;
+  background: #a55683;
 }
 
 .page-reg-btn:hover {
-  background-color: #dfdcde;
+  background-color: #a55683;
   text-decoration: none;
   background-image: none;
   color: #515151;
   border: 1px solid #fff;
+  color: #fff;
+  opacity: 0.85;
 }
 
 .lang-track-a {
