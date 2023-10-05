@@ -115,7 +115,7 @@ if( have_rows('content_sections') )
         $content = get_sub_field('content');
         $heading_size= get_sub_field('heading_size');
         // echo $idx;
-        $bg_class= ($idx %2 ==1) ? 'g-bg':'w-bg';
+        $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
         // echo $bg_class;
         if($idx %2 ==1)
         {
