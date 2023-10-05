@@ -38,7 +38,7 @@ global $product;
 <a href="<?php echo get_site_url();?>/cart" class="cart-a cart-product-page"> <img
         src="<?php echo get_template_directory_uri();?>/assets/images/cart.png" alt=""></a>
 
-<div class="inner-container pb-6 position-relative w-bg">
+<div class="inner-container pb-5 pt-5 position-relative w-bg">
 
 
     <div class="row align-items-center justify-content-center gx-5 mobile-column-reverse">
