@@ -730,7 +730,7 @@ a.add-to-cart-btn:hover {
 }
 
 .woocommerce-cart-form thead {
-  background: rgb(93 35 94 / 100%);
+  background: rgb(165 86 131);
 }
 
 .woocommerce a.remove,
@@ -793,8 +793,9 @@ a.add-to-cart-btn:hover {
 .cart_totals h2 {
   margin: 0;
   text-align: center;
-  background: rgb(93 35 94 / 100%);
+  background: rgb(165 86 131);
   font-size: 1.2rem;
+  color: #fff;
   padding: 10px;
 }
 
@@ -823,6 +824,7 @@ a.add-to-cart-btn:hover {
 .woocommerce-checkout .cart-collaterals .cart_totals tr td,
 .woocommerce-checkout .cart-collaterals .cart_totals tr th {
   border-top: 1px solid rgb(169 125 139 / 50%);
+  text-align: left;
 }
 
 tbody,
@@ -862,7 +864,7 @@ tr {
 }
 
 td[data-title='Subtotal'] {
-  text-align: right;
+  text-align: left;
 }
 
 td[data-title='Total'] {
@@ -1009,6 +1011,7 @@ form.woocommerce-checkout {
   margin-bottom: 1rem;
   position: relative;
   z-index: 10;
+  margin: 2rem 0 2rem 0;
 }
 
 #order_review_heading {
@@ -1538,6 +1541,7 @@ input[type='submit'] {
   border-radius: 5px;
   border-color: rgb(169 125 139 / 50%) !important;
   border: 1px solid;
+  color: #fff;
 }
 
 .woocommerce #respond input#submit.alt:hover,
