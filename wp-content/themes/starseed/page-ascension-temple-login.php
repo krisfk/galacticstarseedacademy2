@@ -327,7 +327,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
     </div>
 </div>
 
-<div class="color-bg g-bg pt-5 pb-5">
+<div class="color-bg g-bg pt-5 pb-5 d-none">
     <div class="container">
         <div class="row login-hide align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
 
