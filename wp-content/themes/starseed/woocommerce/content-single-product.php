@@ -447,7 +447,7 @@ if(get_field('show_testimonial'))
     <div class="container mt-5 text-center pb-5 inner-container pe-3 ps-3">
 
 
-        <h1 class="mt-4">視頻好評</h1>
+        <h2 class="mt-4">視頻好評</h2>
         <div class="mt-4">
             <?php
         echo  get_field('testimonial_content');
