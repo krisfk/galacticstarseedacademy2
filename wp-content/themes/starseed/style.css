@@ -747,6 +747,7 @@ a.add-to-cart-btn:hover {
   text-decoration: none;
   font-weight: 700;
   border: 0;
+  filter: brightness(0.6);
 }
 
 .woocommerce .cart .button,
