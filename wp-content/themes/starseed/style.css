@@ -803,6 +803,7 @@ a.add-to-cart-btn:hover {
 .woocommerce-cart .wc-proceed-to-checkout,
 .woocommerce-checkout .wc-proceed-to-checkout {
   padding: 0;
+  text-align: center;
 }
 
 #add_payment_method .wc-proceed-to-checkout a.checkout-button,
