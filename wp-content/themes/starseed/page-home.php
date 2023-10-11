@@ -47,18 +47,6 @@ get_header(); ?>
     </div>
 </div>
 
-<!-- <div class="row align-items-center mt-0 mobile-column-reverse">
-
-    <div class="col-lg-12 col-md-12 col-sm-12 col-12 txt-top content-txt  w-bg  pt-4 pb-5">
-
-
-
-
-    </div>
-</div> -->
-
-<!-- 
-
 
 
 
@@ -108,6 +96,11 @@ get_header(); ?>
 
     </div>
 </div>
+
+
+
+<!-- 
+
 
 
 
