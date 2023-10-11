@@ -57,13 +57,11 @@ get_header(); ?>
 
 
 
-        <!-- <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top"> -->
         <h1>關於星際種子學院</h1>
         <img class="alignnone wp-image-927 size-medium"
             src="http://64.227.13.14/starseed/wp-content/uploads/2023/03/desktop-logo-300x300.png" alt="" width="300"
             height="300" />
 
-        <!-- </div> -->
         <div class="mt-4 content-txt-div text-start ">
 
 
