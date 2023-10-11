@@ -890,6 +890,11 @@ td[data-title='Total'] {
   color: #fff;
 }
 
+.woocommerce table.shop_table th[class='product-name'],
+.woocommerce table.shop_table th[class='product-total'] {
+  color: #666;
+}
+
 .woocommerce-message {
   border-top-color: #73525f;
 }
