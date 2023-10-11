@@ -23,24 +23,23 @@ get_header(); ?>
 
 
 
+<?php //echo get_the_content();?>
 
 
 <div class="w-bg">
     <div class="container container mt-4  text-center  pt-5 pb-5 ">
 
 
-        <?php echo get_the_content();?>
 
 
-        <!-- 
-        
-            <h2 class=" text-center">一階課程</h2>
+        <h2 class=" text-center">一階課程</h2>
 
-                        
-            <div class="mt-3 text-start content-txt-div">
 
-                <p>星際綜合能量療法一階課程是為期8天的課程，為你提供對自己或他人進行強大的星際綜合能量療癒所需的一切。這個課程旨在為那些希望學習和應用高階靈性知識、療法和技術以轉化他們的生活的學生提供專業優質的入門級課程。雖然這個課程是「入門級」，但這個課程所帶來的收穫卻已經非常多。</p>
-            </div> -->
+        <div class="mt-3 text-start content-txt-div">
+
+            <p>星際綜合能量療法一階課程是為期8天的課程，為你提供對自己或他人進行強大的星際綜合能量療癒所需的一切。這個課程旨在為那些希望學習和應用高階靈性知識、療法和技術以轉化他們的生活的學生提供專業優質的入門級課程。雖然這個課程是「入門級」，但這個課程所帶來的收穫卻已經非常多。
+            </p>
+        </div>
 
     </div>
 </div>
