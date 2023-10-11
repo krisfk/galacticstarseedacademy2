@@ -19,12 +19,7 @@ get_header(); ?>
 
 
 
-<!-- </div> -->
-
-
-
-
-
+<!-- 
 
 <div class="row align-items-center mt-0 mobile-column-reverse">
 
@@ -52,36 +47,11 @@ get_header(); ?>
 
         </div>
 
-
-
-        <!-- 正在尋找高階的靈性課程？
-星際綜合能量療法
-一個絕對不會讓你後悔的靈性課程
-立即了解更多 -->
-
-
     </div>
 </div>
 
-<!-- <div class="row pt-5 pb-5 g-bg">
-
-    <div class="container text-center">
-        <h1>成為會員</h1>
-
-        <div class="content-txt-div mt-4">
-            用最低成本，學習最高階的靈性技術
 
 
-
-        </div>
-        <a href="<?php echo get_site_url();?>/ascension-temple-login" class="know-more-btn">立即了解更多</a>
-
-
-    </div>
-
-
-
-</div> -->
 <div class="row pt-5 pb-5 g-bg">
 
     <div class="container  position-relative">
@@ -144,8 +114,6 @@ get_header(); ?>
             <video width="640" height="420" controls>
                 <source src="http://64.227.13.14/starseed/wp-content/uploads/2023/10/file_example_MP4_480_1_5MG.mp4"
                     type="video/mp4">
-                <!-- <source src="movie.ogg" type="video/ogg"> -->
-                <!-- Your browser does not support the video tag. -->
             </video>
 
 
@@ -156,46 +124,11 @@ get_header(); ?>
 
 
 
-</div>
+</div> -->
 
 
-<!-- 
-<div class="bottom-container-wrapper">
-    <div class="container">
-
-        <div class="row align-items-center position-relative h-100">
 
 
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12  position-relative key-bg">
-
-                <div class="content-txt me-5 px-2">
-                    <?php echo get_field('content_4');?>
-
-                    <a href="<?php echo get_site_url();?>/key" class="know-more-btn">了解更多</a>
-
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 position-relative bud-bg ">
-
-
-                <div class="content-txt me-5 px-2">
-
-                    <?php echo get_field('content_5');?>
-
-
-                    <a href="<?php echo get_site_url()?>/product/多次元靈魂療癒/" class="know-more-btn">了解更多</a>
-
-
-                </div>
-
-
-            </div>
-
-
-        </div>
-    </div>
-</div>
- -->
 
 <?php
 
