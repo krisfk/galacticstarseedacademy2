@@ -1209,6 +1209,15 @@ input[type='submit'] {
   color: #fff;
 }
 
+.cart-subtotal th {
+  color: #666 !important;
+}
+
+.cart-subtotal th,
+.order-total th {
+  color: #666 !important;
+}
+
 .pms_success-messages-wrapper p {
   padding: 5px 10px;
   background: rgb(255 255 255 / 20%);
