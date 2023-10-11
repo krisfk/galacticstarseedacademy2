@@ -284,6 +284,9 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                     $(this).toggleClass('open');
                                     if ($(this).hasClass('open')) {
                                         $('.top-menu-ul').fadeIn(200);
+                                        $('html').css({
+                                            'overflow': 'hidden'
+                                        });
 
                                         // $('.top-menu-container').css({
                                         //     'height': '100%'
@@ -295,6 +298,10 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
 
                                     } else {
                                         $('.top-menu-ul').fadeOut(0);
+
+                                        $('html').css({
+                                            'overflow': 'auto'
+                                        });
                                         // $('.top-menu-container').css({
                                         //     'height': 'auto'
                                         // });
