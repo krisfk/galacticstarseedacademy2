@@ -1426,9 +1426,9 @@ input[type='submit'] {
   width: 3.631em;
   text-align: center;
   background-color: transparent;
-  color: #fff;
+  color: #666;
   display: inline;
-  border: 1px solid;
+  border: 1px solid #d3ced2;
 }
 
 .woocommerce #content table.cart td.actions .input-text,
@@ -1563,9 +1563,9 @@ label[for='coupon_code'] {
   width: 100%;
   border-collapse: separate;
   border-radius: 5px;
-  border-color: rgb(165 86 131 / 20%) !important;
-  border: 1px solid;
+  /* border: 1px solid; */
   color: #666 !important;
+  background: rgb(230 230 230 / 45%);
 }
 
 .woocommerce #respond input#submit.alt:hover,
