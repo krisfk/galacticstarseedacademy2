@@ -40,6 +40,8 @@ get_header(); ?>
             </div>
 
             <a href="<?php echo get_site_url();?>/key" class="know-more-btn">立即了解更多</a>
+            b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b
+            <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br> b <br>
 
 
         </div>
@@ -49,7 +51,7 @@ get_header(); ?>
 
 
 
-
+<!-- 
 <div class="row pt-5 pb-5 g-bg">
 
     <div class="container  position-relative">
@@ -95,7 +97,7 @@ get_header(); ?>
         </div>
 
     </div>
-</div>
+</div> -->
 
 
 
