@@ -115,7 +115,7 @@ get_header(); ?>
 
 
 
-            <video width="640" height="420" controls>
+            <video width="640" height="" controls>
                 <source src="http://64.227.13.14/starseed/wp-content/uploads/2023/10/file_example_MP4_480_1_5MG.mp4"
                     type="video/mp4">
             </video>
