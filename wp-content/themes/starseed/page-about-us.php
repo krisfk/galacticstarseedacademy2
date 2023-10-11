@@ -36,7 +36,7 @@ get_header(); ?>
                         width="300" height="300" />
 
                 </div>
-                <div class="mt-4 content-txt-div text-start px-0">
+                <div class="mt-4 content-txt-div text-start ">
 
 
                     很感恩今天我們在這裏相遇上。星際種子學院是一所提供專頁優質靈性培訓和服務的機構，是全港第一所教授揚升科學的靈性學校，致力在華人身心靈界推廣揚升科學。
