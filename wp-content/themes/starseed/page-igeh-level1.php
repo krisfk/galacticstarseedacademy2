@@ -31,18 +31,16 @@ get_header(); ?>
 
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top">
                     <h1>星際綜合能量療法一階</h1>
-                    <img class="alignnone wp-image-927 size-medium"
+                    <!-- <img class="alignnone wp-image-927 size-medium"
                         src="http://64.227.13.14/starseed/wp-content/uploads/2023/03/desktop-logo-300x300.png" alt=""
-                        width="300" height="300" />
+                        width="300" height="300" /> -->
 
                 </div>
                 <div class="mt-4 content-txt-div text-start px-0">
 
 
-                    很感恩今天我們在這裏相遇上。星際種子學院是一所提供專頁優質靈性培訓和服務的機構，是全港第一所教授揚升科學的靈性學校，致力在華人身心靈界推廣揚升科學。
-                    <br><br>
-                    星際種子學院是現時全港唯一一所教授揚升科學的靈性學校。我們的志願是希望透過療癒和靈性教學，幫助大家釋放潛藏的靈性潛能，憶起自己作為多次元存在的本質。
-
+                    星際綜合能量療法（Integrated Galactic Energy
+                    Healing，簡稱IGEH），是一套集多個星際文明（如：大角星、昴宿星、天狼星、天琴星等）的療法於一體的療癒系統。這套系統揉合了多個星際文明的能量和技術，可以提供多元化的療癒，深層解決問題。
 
                 </div>
             </div>
