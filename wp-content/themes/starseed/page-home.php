@@ -100,7 +100,43 @@ get_header(); ?>
 </div>
 
 
+<!-- 
+<div class="bottom-container-wrapper">
+    <div class="container">
 
+        <div class="row align-items-center position-relative h-100">
+
+
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12  position-relative key-bg">
+
+                <div class="content-txt me-5 px-2">
+                    <?php echo get_field('content_4');?>
+
+                    <a href="<?php echo get_site_url();?>/key" class="know-more-btn">了解更多</a>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 position-relative bud-bg ">
+
+
+                <div class="content-txt me-5 px-2">
+
+                    <?php echo get_field('content_5');?>
+
+
+                    <a href="<?php echo get_site_url()?>/product/多次元靈魂療癒/" class="know-more-btn">了解更多</a>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+ -->
 
 <?php
 
