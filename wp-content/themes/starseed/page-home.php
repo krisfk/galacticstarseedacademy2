@@ -37,6 +37,66 @@ get_header(); ?>
 
 
 
+
+
+
+<div class="row align-items-center mt-0 mobile-column-reverse">
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-12 txt-top content-txt  w-bg  pt-4 pb-5">
+
+
+        <div class="text-center"><img
+                src="https://galacticstarseedacademy.com/wp-content/uploads/2023/03/desktop-logo-300x300.png" alt="">
+        </div>
+
+        <?php //echo get_field('content_1');?>
+
+        <div class="text-center">
+
+
+            <h1>正在尋找高階的靈性課程？</h1>
+            <div class="content-txt-div mt-4">
+                星際綜合能量療法 <br>
+                一個絕對不會讓你後悔的靈性課程
+
+
+            </div>
+
+            <a href="<?php echo get_site_url();?>/key" class="know-more-btn">立即了解更多</a>
+
+
+        </div>
+
+
+
+        <!-- 正在尋找高階的靈性課程？
+星際綜合能量療法
+一個絕對不會讓你後悔的靈性課程
+立即了解更多 -->
+
+
+    </div>
+</div>
+
+<!-- <div class="row pt-5 pb-5 g-bg">
+
+    <div class="container text-center">
+        <h1>成為會員</h1>
+
+        <div class="content-txt-div mt-4">
+            用最低成本，學習最高階的靈性技術
+
+
+
+        </div>
+        <a href="<?php echo get_site_url();?>/ascension-temple-login" class="know-more-btn">立即了解更多</a>
+
+
+    </div>
+
+
+
+</div> -->
 <div class="row pt-5 pb-5 g-bg">
 
     <div class="container  position-relative">
