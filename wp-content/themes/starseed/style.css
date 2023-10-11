@@ -882,6 +882,10 @@ td[data-title='Total'] {
   word-wrap: break-word;
 }
 
+.woocommerce table.shop_table th {
+  color: #fff;
+}
+
 .woocommerce-message {
   border-top-color: #73525f;
 }
@@ -1527,6 +1531,10 @@ input[type='submit'] {
 
 .order_details a:hover {
   color: #fff;
+}
+
+label[for='coupon_code'] {
+  margin: 0 0 0 0.5rem;
 }
 
 .woocommerce table.shop_table td {
