@@ -882,6 +882,8 @@ td[data-title='Total'] {
   list-style: none outside;
   width: auto;
   word-wrap: break-word;
+  max-width: 998px;
+  margin: 0 auto 1rem auto;
 }
 
 .woocommerce table.shop_table th {
