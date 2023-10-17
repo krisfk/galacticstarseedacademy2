@@ -615,7 +615,7 @@ a.add-to-cart-btn:hover {
 .course-thumbnail {
   /* display: in; */
   height: 300px;
-  opacity: 0;
+  opacity: 1;
 }
 
 .course-entry-a {
