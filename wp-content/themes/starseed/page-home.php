@@ -23,9 +23,9 @@ get_header(); ?>
 
 
 
-        <div class="text-center"><img
+        <!-- <div class="text-center"><img
                 src="https://galacticstarseedacademy.com/wp-content/uploads/2023/03/desktop-logo-300x300.png" alt="">
-        </div>
+        </div> -->
 
 
         <div class="text-center">
