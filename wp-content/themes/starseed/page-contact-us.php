@@ -42,7 +42,7 @@ get_header(); ?>
             <div class-="text-center">
                 <!-- 我們樂意為您提供任何協助 -->
 
-                <table class="text-start mx-auto">
+                <table class="text-start mx-auto" style="max-width:360px;">
                     <tr>
                         <td class="fw-bold">Whatsapp：</td>
                         <td>69995659</td>
