@@ -127,6 +127,17 @@ body {
   /* line-height: 2.5 !important; */
 }
 
+.outer-menu-div {
+  display: block;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  z-index: 1000000;
+}
+
 .main-container {
   /* background: url(./assets/images/bg3.jpg); */
   /* background-size: 100% auto; */
@@ -2409,7 +2420,7 @@ h2 {
   height: 100px;
   position: relative;
   z-index: 1000;
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
   -webkit-backdrop-filter: blur(5px);
   background: rgb(133 23 89 / 90%);
   -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
@@ -2598,6 +2609,7 @@ video {
     position: fixed;
     z-index: 10000;
     top: 0;
+    height: 77px !important;
     left: 0;
     width: 100%;
     /* rgb(95 34 63 / 90%); */
@@ -2670,10 +2682,10 @@ video {
     /* height: 100%; */
     /* padding-bottom: 2rem; */
     /* margin: 1rem 0 0 0; */
-    background: rgb(95 34 63 / 95%);
+    background: rgb(95 34 63 / 90%);
     /* background: rgba(96, 39, 98, 0.65); */
     /* backdrop-filter: blur(5px); */
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
     -webkit-backdrop-filter: blur(5px);
   }
   .mobile-menu-submenu li a {
