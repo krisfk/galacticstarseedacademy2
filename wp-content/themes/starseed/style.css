@@ -2985,7 +2985,8 @@ video {
     display: none;
   }
   .course-thumbnail {
-    height: 300px;
+    /* height: 300px; */
+    width: 100%;
   }
   .post-block {
     margin: 0 2rem;
