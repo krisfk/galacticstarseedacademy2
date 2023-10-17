@@ -107,8 +107,7 @@
                                                     <ul class=" top-menu-ul m-0">
 
                                                         <li class="mobile-logo-li">
-                                                            <!-- <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png"
-                                                    alt=""> -->
+
                                                             <a href="<?php echo get_site_url();?>" class="logo-a">
                                                                 <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png"
                                                                     alt="">
