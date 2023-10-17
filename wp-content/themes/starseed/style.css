@@ -2451,6 +2451,7 @@ h1 {
 
 video {
   max-width: 100%;
+  padding: 0 1rem;
 }
 
 @media only screen and (max-width: 1920px) {
