@@ -69,10 +69,7 @@
 
                     <div class="main-container mx-auto">
 
-                        <!-- <img class="bg-img-2" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg"
-                            alt=""> -->
-                        <!-- <img class="bg-img-3" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg"
-                            alt=""> -->
+
 
 
                         <div class="outer-menu-div">
@@ -231,156 +228,157 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                                 </ul>
                                             </div>
                                         </div>
-
                                     </div>
 
                                 </div>
 
-
                             </div>
 
-                            <script type="text/javascript">
-                            $(function() {
+
+                        </div>
+
+                        <script type="text/javascript">
+                        $(function() {
 
 
-                                $('.top-menu-ul li a.level-1.parent').click(function(e) {
-                                    if ($(window).width() <= 1200) {
-                                        e.preventDefault();
-                                        $(this).toggleClass('open');
-                                        if ($(this).hasClass('open')) {
-                                            $(this).next('.mobile-menu-submenu').slideDown(200);
-                                        } else {
-                                            $(this).next('.mobile-menu-submenu').slideUp(200);
-
-                                        }
-                                    }
-
-
-                                })
-
-
-
-                                $(window).resize(function() {
-                                    // alert(6);
-
-                                    if ($(window).width() > 1200) {
-                                        $('.top-menu-ul').fadeIn(0);
-                                        // $('.menu-close-btn').fadeOut(0);
-
-                                    } else {
-                                        $('.top-menu-ul').fadeOut(0);
-                                        $('.top-menu-container').css({
-                                            'height': 'auto'
-                                        });
-                                        // $('.top-menu-ul li a.level-1.parent').removeClass('open');
-                                        $('.mobile-menu-submenu').fadeOut(0);
-                                        $('.mobile-menu-btn').removeClass('open');
-
-                                    }
-                                })
-
-
-                                $('.mobile-menu-btn').click(function(e) {
+                            $('.top-menu-ul li a.level-1.parent').click(function(e) {
+                                if ($(window).width() <= 1200) {
                                     e.preventDefault();
                                     $(this).toggleClass('open');
                                     if ($(this).hasClass('open')) {
-                                        $('.top-menu-ul').fadeIn(200);
-                                        $('html').css({
-                                            'overflow': 'hidden'
-                                        });
-
-                                        // $('.top-menu-container').css({
-                                        //     'height': '100%'
-                                        // });
-                                        $('.top-menu-container').animate({
-                                            'height': '100%'
-                                        }, 200)
-
-
+                                        $(this).next('.mobile-menu-submenu').slideDown(200);
                                     } else {
-                                        $('.top-menu-ul').fadeOut(0);
-
-                                        $('html').css({
-                                            'overflow': 'auto'
-                                        });
-                                        // $('.top-menu-container').css({
-                                        //     'height': 'auto'
-                                        // });
-                                        $('.top-menu-container').animate({
-                                            'height': '77px'
-                                        }, 200)
-
+                                        $(this).next('.mobile-menu-submenu').slideUp(200);
 
                                     }
-
-                                })
-
-                                // $('.menu-close-btn').click(function(e) {
-                                //     e.preventDefault();
-                                //     $('.top-menu-ul').fadeOut(0);
-
-                                //     // $('.menu-close-btn').fadeOut(0);
-
-                                // })
-
-                                $('.level-1').mouseenter(function() {
-
-                                    if ($(window).width() > 1200) {
-                                        $('.mobile-menu-submenu').clearQueue().fadeOut(0);
-
-
-                                        if ($(this).hasClass('parent')) {
-                                            $(this).next('.mobile-menu-submenu').slideDown(200);
-                                        }
-                                    }
-
-
-
-                                })
-
-                                $('.mobile-menu-submenu').mouseleave(function() {
-
-                                    if ($(window).width() > 1200) {
-
-                                        $('.mobile-menu-submenu').fadeOut(0);
-                                    }
-                                })
-
-
-                                $('.mobile-menu-submenu').mouseenter(function() {
-
-                                    $(this).clearQueue().fadeIn(0);
-
-                                })
-
-
-                                $('.level-1').mouseleave(function() {
-
-                                    if ($(window).width() > 1200) {
-
-
-                                        $('.mobile-menu-submenu').delay(500).fadeOut(0)
-
-                                    }
-                                })
-
-
-
-
-                                $('input[type="text"],input[type="submit"],input[type="email"],input[type="tel"],input[type="password"],input[type="number"],button,textarea,select')
-                                    .addClass('form-control');
-                                $('input[type="checkbox"]').addClass('form-check-input');
-
-                                $('.page-account .pms-form-fields-wrapper,.pms-field-section.pms-section-billing-details.pms-billing-details')
-                                    .addClass('row');
-
-                                $('.page-account .pms-form-fields-wrapper .pms-field').addClass('col-5');
-                                $('.page-account .pms-field.pms-field-type-heading').addClass('col-10');
-                                $('.page-account #pms_edit-profile-form .pms-billing-details').css({
-                                    'display': 'inline-flex'
-                                });
-                                // $('.page-account #pms-field-type-heading').addClass('text-center');
+                                }
 
 
                             })
-                            </script>
+
+
+
+                            $(window).resize(function() {
+                                // alert(6);
+
+                                if ($(window).width() > 1200) {
+                                    $('.top-menu-ul').fadeIn(0);
+                                    // $('.menu-close-btn').fadeOut(0);
+
+                                } else {
+                                    $('.top-menu-ul').fadeOut(0);
+                                    $('.top-menu-container').css({
+                                        'height': 'auto'
+                                    });
+                                    // $('.top-menu-ul li a.level-1.parent').removeClass('open');
+                                    $('.mobile-menu-submenu').fadeOut(0);
+                                    $('.mobile-menu-btn').removeClass('open');
+
+                                }
+                            })
+
+
+                            $('.mobile-menu-btn').click(function(e) {
+                                e.preventDefault();
+                                $(this).toggleClass('open');
+                                if ($(this).hasClass('open')) {
+                                    $('.top-menu-ul').fadeIn(200);
+                                    $('html').css({
+                                        'overflow': 'hidden'
+                                    });
+
+                                    // $('.top-menu-container').css({
+                                    //     'height': '100%'
+                                    // });
+                                    $('.top-menu-container').animate({
+                                        'height': '100%'
+                                    }, 200)
+
+
+                                } else {
+                                    $('.top-menu-ul').fadeOut(0);
+
+                                    $('html').css({
+                                        'overflow': 'auto'
+                                    });
+                                    // $('.top-menu-container').css({
+                                    //     'height': 'auto'
+                                    // });
+                                    $('.top-menu-container').animate({
+                                        'height': '77px'
+                                    }, 200)
+
+
+                                }
+
+                            })
+
+                            // $('.menu-close-btn').click(function(e) {
+                            //     e.preventDefault();
+                            //     $('.top-menu-ul').fadeOut(0);
+
+                            //     // $('.menu-close-btn').fadeOut(0);
+
+                            // })
+
+                            $('.level-1').mouseenter(function() {
+
+                                if ($(window).width() > 1200) {
+                                    $('.mobile-menu-submenu').clearQueue().fadeOut(0);
+
+
+                                    if ($(this).hasClass('parent')) {
+                                        $(this).next('.mobile-menu-submenu').slideDown(200);
+                                    }
+                                }
+
+
+
+                            })
+
+                            $('.mobile-menu-submenu').mouseleave(function() {
+
+                                if ($(window).width() > 1200) {
+
+                                    $('.mobile-menu-submenu').fadeOut(0);
+                                }
+                            })
+
+
+                            $('.mobile-menu-submenu').mouseenter(function() {
+
+                                $(this).clearQueue().fadeIn(0);
+
+                            })
+
+
+                            $('.level-1').mouseleave(function() {
+
+                                if ($(window).width() > 1200) {
+
+
+                                    $('.mobile-menu-submenu').delay(500).fadeOut(0)
+
+                                }
+                            })
+
+
+
+
+                            $('input[type="text"],input[type="submit"],input[type="email"],input[type="tel"],input[type="password"],input[type="number"],button,textarea,select')
+                                .addClass('form-control');
+                            $('input[type="checkbox"]').addClass('form-check-input');
+
+                            $('.page-account .pms-form-fields-wrapper,.pms-field-section.pms-section-billing-details.pms-billing-details')
+                                .addClass('row');
+
+                            $('.page-account .pms-form-fields-wrapper .pms-field').addClass('col-5');
+                            $('.page-account .pms-field.pms-field-type-heading').addClass('col-10');
+                            $('.page-account #pms_edit-profile-form .pms-billing-details').css({
+                                'display': 'inline-flex'
+                            });
+                            // $('.page-account #pms-field-type-heading').addClass('text-center');
+
+
+                        })
+                        </script>
