@@ -70,7 +70,8 @@ get_header(); ?>
 
 
 ?>
-    <div class="course-entry-div-bg pt-5 pb-5 <?php echo $bg_class;?>">
+    <div
+        class="course-entry-div-bg pt-lg-5 pt-md-5 pt-sm-5 pt-3  pb-lg-5 pb-md-5 pb-sm-5 pb-3  <?php echo $bg_class;?>">
         <div class="container course-entry-div">
             <div class="row">
 
