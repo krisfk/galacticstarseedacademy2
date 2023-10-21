@@ -2491,6 +2491,8 @@ video {
 
 @media only screen and (max-width: 1200px) {
   .know-more-btn.about-xylas {
+    margin: 1rem auto 0 auto;
+    display: table;
   }
   .outer-menu-div {
     position: fixed;
