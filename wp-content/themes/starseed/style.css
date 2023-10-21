@@ -2701,9 +2701,9 @@ video {
     list-style-type: none;
     margin: 0;
     text-align: left;
-    display: inline-block;
+    display: block;
     /* padding: 0.5rem 0 0.5rem 0; */
-    float: left;
+    /* float: left; */
   }
   .top-menu-ul li a {
     float: none;
