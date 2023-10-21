@@ -79,7 +79,7 @@ get_header(); ?>
                         </div>
 
 
-                        <a href="<?php echo get_site_url();?>/about-us" class="know-more-btn">了解更多</a>
+                        <a href="<?php echo get_site_url();?>/about-us" class="know-more-btn about-xylas">了解更多</a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
                         <img class="w-100 bosco-foto"
