@@ -19,30 +19,26 @@ get_header(); ?>
 
 
 
-<!-- 
-<img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
-<img class="star8 fadein-ele" style="  width: 305px !important;position: absolute;bottom: 20px;left: -140px;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
-<img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;bottom: -120px;left: 543px;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
-<img class="star10 fadein-ele" style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt=""> -->
 
-<div class="inner-container  mt-lg-5 mt-md-5 mt-sm-5 mt-0 text-center">
-    <div class="row align-items-center justify-content-center gx-5 fadein-ele">
 
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top ">
-            <h1>學院時間表
-            </h1>
-        </div>
 
-        <div class="mt-4">星際種子學院是一個讓人學習如何運用宇宙智慧和宇宙能量頻率的機構，致力讓每個人都可以透過尋回內在自性創造內在和諧，從而達致靈魂成長，成就更好的自己。
+<div class="w-bg">
+    <div class="container container mt-4  text-center  pt-5 pb-5 ">
+        <div class="mt-3 text-start content-txt-div">
 
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top ">
+                <h1>學院時間表
+                </h1>
+            </div>
+
+            <div class="mt-4">星際種子學院是一個讓人學習如何運用宇宙智慧和宇宙能量頻率的機構，致力讓每個人都可以透過尋回內在自性創造內在和諧，從而達致靈魂成長，成就更好的自己。
+
+            </div>
         </div>
 
     </div>
 </div>
+
 
 </div>
 
