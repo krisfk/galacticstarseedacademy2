@@ -94,7 +94,8 @@ get_header(); ?>
                         ?>
                     </div>
 
-                    <div class="text-end"> <a href="<?php echo get_permalink();?>" class="know-more-btn2">立即了解更多</a>
+                    <div class="text-end">
+                        <a href="<?php echo get_permalink();?>" class="know-more-btn2">立即了解更多</a>
                     </div>
                 </div>
             </div>
