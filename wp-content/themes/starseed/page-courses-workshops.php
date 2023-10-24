@@ -85,7 +85,7 @@ get_header(); ?>
 
                     <img class="course-thumbnail" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                 </div>
-                <div class="col-lg-7 col-md-7 col-sm-12 col-12  text-start p-5">
+                <div class="col-lg-7 col-md-7 col-sm-12 col-12  text-start p-5 pb-0">
                     <h2><?php echo get_the_title();?></h2>
 
                     <div>
