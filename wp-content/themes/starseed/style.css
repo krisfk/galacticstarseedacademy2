@@ -3013,7 +3013,8 @@ video {
   }
   .course-thumbnail {
     /* height: 300px; */
-    width: 100%;
+    /* width: 100%; */
+    max-width: 80%;
   }
   .post-block {
     margin: 0 2rem;
