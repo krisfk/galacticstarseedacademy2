@@ -36,7 +36,7 @@ get_header(); ?>
             <h1>一個絕對不會讓你後悔的靈性課程</h1>
 
 
-            <div class="mx-auto mt-3">
+            <div class="mx-auto mt-4">
 
 
 
