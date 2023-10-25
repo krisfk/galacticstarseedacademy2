@@ -36,7 +36,7 @@ get_header(); ?>
             <h2>一個絕對不會讓你後悔的靈性課程</h2>
 
 
-            <div class="mx-auto mt-4">
+            <!-- <div class="mx-auto mt-4">
 
 
 
@@ -46,7 +46,7 @@ get_header(); ?>
                 </video>
 
 
-            </div>
+            </div> -->
 
 
             <!-- <div class="content-txt-div mt-4">
