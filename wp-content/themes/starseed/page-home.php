@@ -34,12 +34,26 @@ get_header(); ?>
             <h1>正在尋找高階的靈性課程？</h1>
             <h1>星際綜合能量療法</h1>
             <h1>一個絕對不會讓你後悔的靈性課程</h1>
-            <div class="content-txt-div mt-4">
 
-                <!-- 一個絕對不會讓你後悔的靈性課程 -->
+
+            <div class="mx-auto mt-3">
+
+
+
+                <video width="640" height="" controls>
+                    <source src="http://64.227.13.14/starseed/wp-content/uploads/2023/10/file_example_MP4_480_1_5MG.mp4"
+                        type="video/mp4">
+                </video>
 
 
             </div>
+
+
+            <!-- <div class="content-txt-div mt-4">
+
+
+
+            </div> -->
 
             <a href="<?php echo get_site_url();?>/about-us/" class="know-more-btn">立即了解更多</a>
 
