@@ -55,7 +55,7 @@ get_header(); ?>
 
             </div> -->
 
-            <a href="<?php echo get_site_url();?>/about-us/" class="know-more-btn">立即了解更多</a>
+            <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">立即了解更多</a>
 
 
 
