@@ -291,7 +291,7 @@ body {
   margin: 1rem 0 0 0;
   transition: 0.2s all;
   line-height: 1;
-  background: #a55683;
+  background: #722551;
 }
 
 .know-more-btn2 {
@@ -304,7 +304,7 @@ body {
   margin: 1rem 0 0 0;
   transition: 0.2s all;
   line-height: 1;
-  background: #a55683;
+  background: #722551;
 }
 
 .know-more-btn2:hover {
@@ -1172,7 +1172,7 @@ input[type='submit'] {
   margin: 1rem 0 0 0;
   transition: 0.2s all;
   line-height: 1;
-  background: #a55683;
+  background: #722551;
 }
 
 #loginform label,
@@ -1546,7 +1546,7 @@ input[type='submit'] {
   /* margin: 1rem 0 0 0; */
   transition: 0.2s all;
   line-height: 1;
-  background: #a55683 !important;
+  background: #722551 !important;
 }
 
 .woocommerce ul.order_details {
@@ -1603,7 +1603,7 @@ input[type='submit']:hover,
   margin: 1rem 0 0 0;
   transition: 0.2s all;
   line-height: 1;
-  background: #a55683;
+  background: #722551;
   opacity: 0.85;
 }
 
@@ -2238,11 +2238,11 @@ span.jp-artist {
   margin: 1rem 0 0 0;
   transition: 0.2s all;
   line-height: 1;
-  background: #a55683;
+  background: #722551;
 }
 
 .page-reg-btn:hover {
-  background-color: #a55683;
+  background-color: #722551;
   text-decoration: none;
   background-image: none;
   color: #515151;
@@ -2926,7 +2926,7 @@ video {
     margin: 1rem 0 0 0;
     transition: 0.2s all;
     line-height: 1;
-    background: #a55683;
+    background: #722551;
   }
   .bottom-container-wrapper {
     display: block;
