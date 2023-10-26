@@ -1707,7 +1707,9 @@ footer {
   text-align: center;
   display: block;
   width: 100%;
-  padding: 0 0 1rem 0;
+  padding: 0.5rem 0 0.5rem 0;
+  background: rgb(114 37 81 / 90%);
+  color: #fff;
 }
 
 .line-height {
