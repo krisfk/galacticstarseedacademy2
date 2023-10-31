@@ -293,9 +293,14 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                     // });
                                     // $('.top-menu-ul').slideDown(200);
                                     $('.top-menu-ul').fadeIn(0);
+                                    $('.top-menu-ul').css({
+                                        'height': '20px'
+                                    });
+
                                     $('.outer-menu-div').css({
                                         'height': '100%'
                                     });
+
                                     $('html').css({
                                         'overflow': 'hidden'
                                     });
@@ -307,9 +312,10 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                     // $('.top-menu-container').css({
                                     //     'height': '100%'
                                     // });
-                                    // $('.top-menu-container').animate({
-                                    //     'height': '100%'
-                                    // }, 200)
+
+                                    $('.top-menu-container').animate({
+                                        'height': '100%'
+                                    }, 200)
 
 
                                 } else {
