@@ -2758,6 +2758,7 @@ video {
 @media only screen and (max-width: 991px) {
   .mobile-menu-submenu {
     background: none;
+    box-shadow: none;
   }
   .top-bar-bg-div {
     display: block;
