@@ -31,6 +31,8 @@ get_header(); ?>
         <div class="text-center">
 
 
+            <img src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/homepage-Banner-scaled.jpg" alt="">
+
             <h1 style="font-size: 2rem;">開啟靈性智慧的星際之旅</h1>
             <h1 style="font-size: 2rem;">正在尋找高階的靈性課程？</h1>
             <h1>星際綜合能量療法系列課程</h1>
