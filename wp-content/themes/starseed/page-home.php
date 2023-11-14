@@ -65,7 +65,7 @@ get_header(); ?>
 
             </div> -->
 
-            <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">立即了解更多</a>
+            <!-- <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">立即了解更多</a> -->
 
 
 
@@ -95,6 +95,9 @@ get_header(); ?>
                                 解答人生迷惘，探索真相指引！宇宙開示與塔羅問事服務是你面對抉擇時的靈性導航。Xylas將連結宇宙意識，解答你的人生疑難，提供指引和真相。我們使用經過調頻和開光的塔羅牌，準確反映事情的本質。如果你準備好迎接人生的啟示，立即體驗宇宙開示與塔羅問事，揭開真相，找到前進的方向吧！
 
                             </div>
+
+                            <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">了解更多</a>
+
 
                         </div>
 
