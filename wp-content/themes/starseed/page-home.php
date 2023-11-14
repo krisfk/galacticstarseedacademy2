@@ -114,6 +114,44 @@ get_header(); ?>
 
 
 
+<div class="row g-0   ">
+
+    <div class="col-12 position-relative ">
+
+        <div class="about-div-wrapper  pt-5 pb-5 w-bg">
+            <div class="about-div">
+                <div class="container ">
+
+                    <div class="row align-items-center g-0">
+                        <div class="col-12 text-left">
+
+
+                            <h2 class=" text-center">星際綜合能量療癒</h2>
+
+                            <div class="mt-4 text-start content-txt-div">
+                                探索跨維度的療癒旅程；釋放創傷、煥發人生命力。星際綜合能量療癒為你提供針對性個人化度身訂造的療癒體驗，從多個層面解決身心問題，提升頻率、療癒關係，引領你展開豐盛人生。
+
+                            </div>
+
+                            <!-- <div class="text-center">
+                                <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">了解更多</a>
+                            </div> -->
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
 
 <div class="row pt-5 pb-5 g-bg">
 
