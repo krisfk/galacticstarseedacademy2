@@ -77,6 +77,40 @@ get_header(); ?>
 
 
 
+<div class="row g-0   ">
+
+    <div class="col-12 position-relative ">
+
+        <div class="about-div-wrapper  pt-5 pb-5 g-bg">
+            <div class="about-div">
+                <div class="container ">
+
+                    <div class="row align-items-center g-0">
+                        <div class="col-12 text-left">
+
+
+                            <h2 class=" text-center">宇宙開示與塔羅問事</h2>
+
+                            <div class="mt-4 text-start content-txt-div">
+                                解答人生迷惘，探索真相指引！宇宙開示與塔羅問事服務是你面對抉擇時的靈性導航。Xylas將連結宇宙意識，解答你的人生疑難，提供指引和真相。我們使用經過調頻和開光的塔羅牌，準確反映事情的本質。如果你準備好迎接人生的啟示，立即體驗宇宙開示與塔羅問事，揭開真相，找到前進的方向吧！
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
 <div class="row pt-5 pb-5 g-bg">
 
     <div class="container  position-relative">
@@ -126,36 +160,7 @@ get_header(); ?>
 
 
 
-<div class="row g-0   ">
 
-    <div class="col-12 position-relative ">
-
-        <div class="about-div-wrapper  pt-5 pb-5 g-bg">
-            <div class="about-div">
-                <div class="container ">
-
-                    <div class="row align-items-center g-0">
-                        <div class="col-12 text-left">
-
-
-                            <h2 class=" text-center">宇宙開示與塔羅問事</h2>
-
-                            <div class="mt-4 text-start content-txt-div">
-                                解答人生迷惘，探索真相指引！宇宙開示與塔羅問事服務是你面對抉擇時的靈性導航。Xylas將連結宇宙意識，解答你的人生疑難，提供指引和真相。我們使用經過調頻和開光的塔羅牌，準確反映事情的本質。如果你準備好迎接人生的啟示，立即體驗宇宙開示與塔羅問事，揭開真相，找到前進的方向吧！
-
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-</div>
 
 
 
