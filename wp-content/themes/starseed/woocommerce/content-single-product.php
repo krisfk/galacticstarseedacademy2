@@ -401,6 +401,8 @@ if(get_field('show_client_case_share'))
 
 </div>
 <?php
+    $idx++;
+
 }
 ?>
 
@@ -433,6 +435,8 @@ if(get_field('show_notice_content'))
 
 
 <?php
+    $idx++;
+
 }
 ?>
 
