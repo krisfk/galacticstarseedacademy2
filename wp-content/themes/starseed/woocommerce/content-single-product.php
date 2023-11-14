@@ -363,6 +363,9 @@ if(get_field('show_client_case_share'))
 
 
     <div class="container inner-container ">
+        <h2>客戶評語及個案分享</h2>
+
+
         <div class="slides">
 
 
@@ -375,14 +378,15 @@ if(get_field('show_client_case_share'))
                   ?>
             <div class="slide">
 
-                <h2>客戶評語及個案分享</h2>
                 <div class="mt-4 ps-3 pe-3 text-center">
                     <?php echo get_sub_field('sharing_text');?>
                 </div>
 
                 <h2 class="mt-4"> <?php echo get_sub_field('client_name');?>
                 </h2>
-                <div class="mt-4">描述</div>
+                <div class="mt-4">
+                    <!-- 描述 -->
+                </div>
 
             </div>
             <?php
