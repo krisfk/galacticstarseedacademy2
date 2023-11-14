@@ -174,14 +174,20 @@ get_header(); ?>
 
 
                     <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end content-txt">
-                        <h1>關於Xylas</h1>
+                        <h1>學院創辦人：Xylas
+                        </h1>
                         <div class="content-txt-div mt-4">
-                            作為一位靈魂療癒師、《5D揚升科學：靈魂揚升的秘密》作者、揚升科學執行師及導師、星界能量導師、星際種子溯源咨詢師；Xylas是星際種子學院的創辦人。
+                            Xylas是一位療癒師、《5D揚升科學：靈魂揚升的秘密》的作者；他的靈性修行傳承自西方「揚升科學」（Ascension
+                            Mechanics）的靈性系統。他希望透過療癒和教學分享，在華人身心靈界推廣揚升科學，讓更多人可以透過揚升科學解決人生疑難，創造豐盛人生。
 
                         </div>
 
 
                         <a href="<?php echo get_site_url();?>/about-us" class="know-more-btn about-xylas">了解更多</a>
+
+                        <a href="<?php echo get_site_url();?>/about-us" class="know-more-btn about-xylas">預約服務</a>
+
+
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
                         <img class="w-100 bosco-foto"
