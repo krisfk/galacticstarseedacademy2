@@ -183,7 +183,7 @@ get_header(); ?>
                         </div>
 
 
-                        <a href="<?php echo get_site_url();?>/about-us" class="know-more-btn about-xylas">了解更多</a>
+                        <a href="<?php echo get_site_url();?>/about-us" class="know-more-btn about-xylas me-3">了解更多</a>
 
                         <a href="<?php echo get_site_url();?>/about-us" class="know-more-btn about-xylas">預約服務</a>
 
