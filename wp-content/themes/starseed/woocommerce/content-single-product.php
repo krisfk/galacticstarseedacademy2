@@ -412,7 +412,7 @@ if(get_field('show_notice_content'))
 
     ?>
 
-<div class="<?php $bg_class;?>">
+<div class="<?php echo $bg_class;?>">
     <div class="container mt-5 text-center pb-5 inner-container pe-3 ps-3">
 
 
@@ -439,12 +439,12 @@ if(get_field('show_testimonial'))
 {
     // $idx++;
     $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
-    echo $idx;
-echo 'hh';
+    // echo $idx;
+// echo 'hh';
 
     ?>
 
-<div class="<?php $bg_class;?>">
+<div class="<?php echo $bg_class;?>">
     <div class="container mt-5 text-center pb-5 inner-container pe-3 ps-3">
 
 
