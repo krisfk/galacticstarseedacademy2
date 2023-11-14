@@ -413,7 +413,7 @@ if(get_field('show_notice_content'))
     ?>
 
 <div class="<?php echo $bg_class;?>">
-    <div class="container mt-5 pt-5 text-center pb-5 inner-container pe-3 ps-3">
+    <div class="container mt-5 text-center pb-5 inner-container pe-3 ps-3">
 
 
         <h1 class="mt-4">注意事項</h1>
@@ -445,7 +445,7 @@ if(get_field('show_testimonial'))
     ?>
 
 <div class="<?php echo $bg_class;?>">
-    <div class="container mt-5 text-center pb-5 inner-container pe-3 ps-3">
+    <div class="container mt-5 pt-5 text-center pb-5 inner-container pe-3 ps-3">
 
 
         <h2 class="mt-4">視頻好評</h2>
