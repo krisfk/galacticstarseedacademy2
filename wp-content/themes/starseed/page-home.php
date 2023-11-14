@@ -96,8 +96,9 @@ get_header(); ?>
 
                             </div>
 
-                            <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">了解更多</a>
-
+                            <div class="text-center">
+                                <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">了解更多</a>
+                            </div>
 
                         </div>
 
