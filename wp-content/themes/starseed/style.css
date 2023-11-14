@@ -432,6 +432,7 @@ a.add-to-cart-btn:hover {
 
 .inner-container {
   position: relative;
+  min-height: 78vh;
   z-index: 100;
 }
 
