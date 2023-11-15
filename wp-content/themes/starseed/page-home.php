@@ -19,7 +19,9 @@ get_header(); ?>
 
 
 
-<img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/homepage-Banner-scaled.jpg" alt="">
+<div class="container"><img class="w-100"
+        src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/homepage-Banner-scaled.jpg" alt="">
+</div>
 
 
 <div class="w-bg">
