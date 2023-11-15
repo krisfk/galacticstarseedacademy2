@@ -47,7 +47,7 @@ get_header(); ?>
         <div class="text-center">
 
             <h1 style="font-size: 1.5rem;">正在尋找高階的靈性課程？</h1>
-            <h1>星際綜合能量療法系列課程</h1>
+            <h1 style="font-size: 1.4rem;">星際綜合能量療法系列課程</h1>
             <h2 style="font-size:1.3rem;">一個好評滿載、與別不同的靈性課程
             </h2>
 
