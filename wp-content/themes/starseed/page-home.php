@@ -31,7 +31,7 @@ get_header(); ?>
 
 
 <div class="w-bg">
-    <div class="container container mt-0  text-center  pt-5 pb-5 ">
+    <div class="container container mt-0  text-center  pt-0 pb-5 ">
 
 
 
