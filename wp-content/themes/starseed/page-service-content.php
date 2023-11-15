@@ -19,7 +19,7 @@ get_header(); ?>
 
 
 <div class="w-bg">
-    <div class="container container mt-4  text-center  pt-5 pb-5 ">
+    <div class="container container mt-0  text-center  pt-5 pb-5 ">
 
 
 
@@ -27,7 +27,7 @@ get_header(); ?>
         <!-- <h2 class=" text-center">一階課程</h2> -->
 
 
-        <div class="mt-3 text-start content-txt-div">
+        <div class="mt-0 text-start content-txt-div">
 
             <?php echo get_the_content();?>
 
