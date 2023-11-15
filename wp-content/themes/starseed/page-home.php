@@ -30,7 +30,7 @@ get_header(); ?>
 
 
 
-<div class="w-bg">
+<div class="g-bg">
     <div class="container container mt-0  text-center  pt-0 pb-5 ">
 
 
@@ -83,7 +83,7 @@ get_header(); ?>
 
     <div class="col-12 position-relative ">
 
-        <div class="about-div-wrapper  pt-5 pb-5 g-bg">
+        <div class="about-div-wrapper  pt-5 pb-5 w-bg">
             <div class="about-div">
                 <div class="container ">
 
