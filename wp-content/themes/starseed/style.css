@@ -2483,6 +2483,16 @@ video {
   display: none;
 }
 
+.service-content-table {
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+
+.service-content-table td {
+  padding: 0.5rem;
+}
+
 @media only screen and (max-width: 1920px) {
 }
 
