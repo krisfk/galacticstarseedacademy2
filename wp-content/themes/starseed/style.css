@@ -2759,6 +2759,11 @@ video {
 @media only screen and (max-width: 991px) {
   .mobile-banner-container {
     margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin-top: 1px !important;
+    position: relative;
   }
   .mobile-menu-submenu {
     background: none;
