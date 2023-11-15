@@ -219,7 +219,7 @@ get_header(); ?>
 
 
 
-<div class="row pt-5 pb-5 w-bg">
+<div class="row pt-5 pb-5 g-bg">
 
     <div class="container text-center">
         <h1>聽聽別人對Xylas的評價：</h1>
