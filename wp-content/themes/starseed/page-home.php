@@ -19,7 +19,7 @@ get_header(); ?>
 
 
 
-<div class="container mt-5 mobile-banner-container"><img class="w-100"
+<div class="container mt-lg-5 mt-md-0 mt-sm-0 mt-0  mobile-banner-container"><img class="w-100"
         src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/homepage-Banner-scaled.jpg" alt="">
 </div>
 
