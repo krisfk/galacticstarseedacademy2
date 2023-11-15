@@ -28,7 +28,7 @@ get_header(); ?>
 
 
 <div class="mt-5 mb-5">
-    <h1 class="text-center">開啟靈性智慧的星際之旅</h1>
+    <h1 class="text-center" style="font-size:2rem;">開啟靈性智慧的星際之旅</h1>
 
 </div>
 
@@ -46,7 +46,7 @@ get_header(); ?>
 
         <div class="text-center">
 
-            <h1 style="font-size: 2rem;">正在尋找高階的靈性課程？</h1>
+            <h1 style="font-size: 1.5rem;">正在尋找高階的靈性課程？</h1>
             <h1>星際綜合能量療法系列課程</h1>
             <h2>一個好評滿載、與別不同的靈性課程
             </h2>
