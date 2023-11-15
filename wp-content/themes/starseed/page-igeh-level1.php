@@ -40,7 +40,9 @@ get_header(); ?>
 
 
 
-            <a href="<?php echo get_site_url();?>/courses-workshops" class="know-more-btn about-xylas">我要報名</a>
+            <div class="text-center">
+                <a href="<?php echo get_site_url();?>/courses-workshops" class="know-more-btn about-xylas">我要報名</a>
+            </div>
 
 
             <!-- 
