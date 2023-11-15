@@ -18,6 +18,10 @@ get_header(); ?>
 
 
 
+
+<img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/homepage-Banner-scaled.jpg" alt="">
+
+
 <div class="w-bg">
     <div class="container container mt-4  text-center  pt-5 pb-5 ">
 
@@ -30,9 +34,6 @@ get_header(); ?>
 
         <div class="text-center">
 
-
-            <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/homepage-Banner-scaled.jpg"
-                alt="">
 
 
             <div class="mt-5 mb-5">
