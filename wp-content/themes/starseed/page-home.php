@@ -24,8 +24,11 @@ get_header(); ?>
 </div> -->
 
 
-<img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/desktop-home-banner.jpg" alt="">
+<img class="w-100 home-desktop-banner"
+    src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/desktop-home-banner.jpg" alt="">
 
+<img class="w-100 home-mobile-banner"
+    src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/homepage-Banner-scaled.jpg" alt="">
 
 <div class="mt-5 mb-5">
     <h1 class="text-center" style="font-size:2rem;">開啟靈性智慧的星際之旅</h1>

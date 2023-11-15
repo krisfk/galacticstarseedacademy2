@@ -2475,6 +2475,14 @@ video {
   padding: 0 1rem;
 }
 
+.home-desktop-banner {
+  display: block;
+}
+
+.home-mobile-banner {
+  display: none;
+}
+
 @media only screen and (max-width: 1920px) {
 }
 
@@ -2757,6 +2765,12 @@ video {
 }
 
 @media only screen and (max-width: 991px) {
+  .home-desktop-banner {
+    display: none;
+  }
+  .home-mobile-banner {
+    display: block;
+  }
   .mobile-banner-container {
     margin: 0 !important;
     width: 100% !important;
