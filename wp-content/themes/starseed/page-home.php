@@ -120,7 +120,7 @@ get_header(); ?>
 
     <div class="col-12 position-relative ">
 
-        <div class="about-div-wrapper  pt-5 pb-5 w-bg">
+        <div class="about-div-wrapper  pt-5 pb-5 g-bg">
             <div class="about-div">
                 <div class="container ">
 
@@ -155,7 +155,7 @@ get_header(); ?>
 
 
 
-<div class="row pt-5 pb-5 g-bg">
+<div class="row pt-5 pb-5 w-bg">
 
     <div class="container  position-relative">
 
