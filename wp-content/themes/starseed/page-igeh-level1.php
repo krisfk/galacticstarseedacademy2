@@ -330,13 +330,57 @@ if( have_rows('content_sections') )
 
 
 
+<div class="w-bg">
+    <div class="container mt-0 pt-5 text-center pb-5 inner-container pe-3 ps-3">
 
 
+        <h2 class="mt-4">視頻好評</h2>
+        <div class="mt-4">
+            <div class="row">
 
-<div class="container mt-5 text-center pb-5 ">
+                <div class="container mt-5 text-center pb-5 ">
 
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+
+                            <iframe title="YouTube video player"
+                                src="https://www.youtube.com/embed/JpwBub6XXnU?si=lsXuP2NojF7p7eJ4" width="560"
+                                height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+
+                            <iframe title="YouTube video player"
+                                src="https://www.youtube.com/embed/t_PdsD42kPE?si=DIfRAfDnh1UHDnf7" width="560"
+                                height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+
+                            <iframe title="YouTube video player"
+                                src="https://www.youtube.com/embed/mW4wWH8ojcY?si=12il0UYhL3YbtAiW" width="560"
+                                height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+
+                            <iframe title="YouTube video player"
+                                src="https://www.youtube.com/embed/iIH-yfU1xH0?si=XX-Sma0giu45nHeT" width="560"
+                                height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </div>
+
+
 
 
 
