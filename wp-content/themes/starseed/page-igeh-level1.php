@@ -39,6 +39,10 @@ get_header(); ?>
             <?php echo get_the_content();?>
 
 
+
+            <a href="<?php echo get_site_url();?>/courses-workshops" class="know-more-btn about-xylas">我要報名</a>
+
+
             <!-- 
             <p>星際綜合能量療法一階課程是為期8天的課程，為你提供對自己或他人進行強大的星際綜合能量療癒所需的一切。這個課程旨在為那些希望學習和應用高階靈性知識、療法和技術以轉化他們的生活的學生提供專業優質的入門級課程。雖然這個課程是「入門級」，但這個課程所帶來的收穫卻已經非常多。
             </p> -->

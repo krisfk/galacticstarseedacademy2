@@ -30,6 +30,7 @@ get_header(); ?>
         <div class="mt-3 text-start content-txt-div">
 
             <?php echo get_the_content();?>
+            <a href="<?php echo get_site_url();?>/courses-workshops" class="know-more-btn about-xylas">我要報名</a>
 
 
             <!-- 
