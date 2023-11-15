@@ -31,7 +31,7 @@ get_header(); ?>
 
 
 <div class="w-bg">
-    <div class="container container mt-4  text-center  pt-5 pb-5 ">
+    <div class="container container mt-0  text-center  pt-5 pb-5 ">
 
 
 
@@ -41,10 +41,6 @@ get_header(); ?>
 
 
         <div class="text-center">
-
-
-
-
 
             <h1 style="font-size: 2rem;">正在尋找高階的靈性課程？</h1>
             <h1>星際綜合能量療法系列課程</h1>
