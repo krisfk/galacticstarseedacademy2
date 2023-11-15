@@ -139,8 +139,10 @@ get_header(); ?>
 
                             </div>
 
+                            <!-- http://64.227.13.14/starseed -->
                             <div class="text-center">
-                                <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">了解更多</a>
+                                <a href="<?php echo get_site_url();?>/product/soulhealing/"
+                                    class="know-more-btn">了解更多</a>
                             </div>
 
 
