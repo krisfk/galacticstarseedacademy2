@@ -2490,7 +2490,7 @@ video {
 }
 
 .service-content-table td {
-  padding: 0.5rem;
+  padding: 0rem 2rem 0.5rem 0;
 }
 
 @media only screen and (max-width: 1920px) {
