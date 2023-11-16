@@ -45,9 +45,6 @@ get_header(); ?>
             </div>
 
 
-            <!-- 
-            <p>星際綜合能量療法一階課程是為期8天的課程，為你提供對自己或他人進行強大的星際綜合能量療癒所需的一切。這個課程旨在為那些希望學習和應用高階靈性知識、療法和技術以轉化他們的生活的學生提供專業優質的入門級課程。雖然這個課程是「入門級」，但這個課程所帶來的收穫卻已經非常多。
-            </p> -->
         </div>
 
     </div>
@@ -334,7 +331,7 @@ if( have_rows('content_sections') )
 
 
 
-
+<!-- 
 
 <div class="w-bg">
     <div class="container mt-0 pt-5 text-center pb-5 inner-container pe-3 ps-3">
@@ -346,45 +343,46 @@ if( have_rows('content_sections') )
 
                 <div class="container mt-5 text-center pb-5 ">
 
-                    <div class="row">
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
-
-                            <iframe title="YouTube video player"
-                                src="https://www.youtube.com/embed/JpwBub6XXnU?si=lsXuP2NojF7p7eJ4" width="560"
-                                height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
-
-                            <iframe title="YouTube video player"
-                                src="https://www.youtube.com/embed/t_PdsD42kPE?si=DIfRAfDnh1UHDnf7" width="560"
-                                height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
-
-                            <iframe title="YouTube video player"
-                                src="https://www.youtube.com/embed/mW4wWH8ojcY?si=12il0UYhL3YbtAiW" width="560"
-                                height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
-
-                            <iframe title="YouTube video player"
-                                src="https://www.youtube.com/embed/iIH-yfU1xH0?si=XX-Sma0giu45nHeT" width="560"
-                                height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
-                        </div>
-
-                    </div>
+                    <?php echo get_field('testimonial_content')?>
                 </div>
 
             </div>
         </div>
     </div>
 
+</div> -->
+
+
+
+<?php
+
+if(get_field('show_testimonial'))
+{
+    $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
+
+    ?>
+
+<div class="<?php echo $bg_class;?>">
+    <div class="container mt-0 pt-5 text-center pb-5 inner-container pe-3 ps-3">
+
+
+        <h2 class="mt-4">視頻好評</h2>
+        <div class="mt-4">
+            <?php
+        echo  get_field('testimonial_content');
+        
+        ?>
+        </div>
+    </div>
+
 </div>
+
+
+<?php
+}
+?>
+
+
 
 
 
