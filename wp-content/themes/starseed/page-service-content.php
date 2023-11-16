@@ -159,7 +159,7 @@ if( have_rows('content_sections') )
                                             <div class="col-8">
                                                 <h3 style="text-align: left;">宇宙開示與塔羅問事</h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn"
+                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/%e5%ae%87%e5%ae%99%e9%96%8b%e7%a4%ba%e8%88%87%e5%a1%94%e7%be%85%e5%95%8f%e4%ba%8b/">了解更多</a>
                                             </div>
 
