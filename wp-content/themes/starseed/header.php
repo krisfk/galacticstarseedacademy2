@@ -89,7 +89,7 @@
                                                 </a>
 
                                                 <a href="<?php echo get_site_url();?>" class="mobile-logo-a">
-                                                    <img src="https://galacticstarseedacademy.com/wp-content/themes/starseed/assets/images/starseed-mobile-logo.png"
+                                                    <img src="http://64.227.13.14/starseed/wp-content/uploads/2023/03/desktop-logo-300x300.png"
                                                         alt="">
                                                 </a>
                                                 <a href="<?php echo get_site_url();?>" class="mobile-logo-word">
