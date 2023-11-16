@@ -212,13 +212,14 @@ if( have_rows('content_sections') )
 
                                         <div class="row mb-2">
 
-                                            <div class="col-9">
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">先人超渡儀式
 
 
                                                 </h3>
                                             </div>
-                                            <div class="col-3"><a class="mt-0 know-more-btn w-100 p-3"
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-lg-12 ">
+                                                <a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/%e5%85%88%e4%ba%ba%e8%b6%85%e6%b8%a1%e5%84%80%e5%bc%8f/">了解更多</a>
                                             </div>
                                         </div>
