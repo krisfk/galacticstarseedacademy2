@@ -154,7 +154,8 @@ if( have_rows('content_sections') )
 
 
                                     <div class="container service-content-table">
-                                        <div class="row mb-2">
+
+                                        <div class="row mb-4">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-lg-start text-md-start text-sm-center text-center">
