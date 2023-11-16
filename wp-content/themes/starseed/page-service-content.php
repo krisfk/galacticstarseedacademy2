@@ -155,7 +155,7 @@ if( have_rows('content_sections') )
 
                                     <div class="container service-content-table">
 
-                                        <div class="row mb-4">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-lg-start text-md-start text-sm-center text-center">
@@ -168,7 +168,7 @@ if( have_rows('content_sections') )
 
                                         </div>
 
-                                        <div class="row mb-2">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">星際綜合能量療癒</h3>
@@ -180,7 +180,7 @@ if( have_rows('content_sections') )
 
                                         </div>
 
-                                        <div class="row mb-2">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">靈魂家族溯源</h3>
@@ -191,7 +191,7 @@ if( have_rows('content_sections') )
                                             </div>
                                         </div>
 
-                                        <div class="row mb-2">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">家居靈體清理
@@ -203,7 +203,7 @@ if( have_rows('content_sections') )
                                             </div>
                                         </div>
 
-                                        <div class="row mb-2">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">基督意識靈光球點化
@@ -218,7 +218,7 @@ if( have_rows('content_sections') )
                                         </div>
 
 
-                                        <div class="row mb-2">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">先人超渡儀式
