@@ -89,8 +89,8 @@
                                                 </a>
 
                                                 <a href="<?php echo get_site_url();?>" class="mobile-logo-a">
-                                                    <!-- <img src="http://64.227.13.14/starseed/wp-content/uploads/2023/03/desktop-logo-300x300.png"
-                                                        alt=""> -->
+                                                    <img src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/starseed-new-logo-300x300.png"
+                                                        alt="">
                                                 </a>
                                                 <a href="<?php echo get_site_url();?>" class="mobile-logo-word">
                                                     <img src="<?php echo get_template_directory_uri();?>/assets/images/mobile-logo-word.png"
