@@ -157,7 +157,8 @@ if( have_rows('content_sections') )
                                         <div class="row mb-2">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
-                                                <h3 style="text-align: left;">宇宙開示與塔羅問事</h3>
+                                                <h3 style="text-lg-start text-md-start text-sm-center text-center">
+                                                    宇宙開示與塔羅問事</h3>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-lg-12 ">
                                                 <a class="mt-0 know-more-btn w-100 p-3"
