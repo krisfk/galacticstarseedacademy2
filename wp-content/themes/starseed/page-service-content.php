@@ -154,7 +154,7 @@ if( have_rows('content_sections') )
 
 
                                     <div class="container service-content-table">
-                                        <div class="row mb-4">
+                                        <div class="row mb-2">
 
                                             <div class="col-8">
                                                 <h3 style="text-align: left;">宇宙開示與塔羅問事</h3>
