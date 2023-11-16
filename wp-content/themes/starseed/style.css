@@ -529,6 +529,10 @@ a.add-to-cart-btn:hover {
   align-items: center;
 }
 
+.slick-slide img {
+  margin: 0 auto;
+}
+
 .slick-dotted.slick-slider {
   margin: 0rem 0 0 0 !important;
 }
