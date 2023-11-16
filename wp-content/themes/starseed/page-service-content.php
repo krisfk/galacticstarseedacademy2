@@ -155,7 +155,7 @@ if( have_rows('content_sections') )
 
                                     <div class="container service-content-table">
 
-                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 class="text-lg-start text-md-start text-sm-center text-center">
@@ -168,7 +168,7 @@ if( have_rows('content_sections') )
 
                                         </div>
 
-                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 class="text-lg-start text-md-start text-sm-center text-center">
@@ -181,7 +181,7 @@ if( have_rows('content_sections') )
 
                                         </div>
 
-                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 class="text-lg-start text-md-start text-sm-center text-center">
@@ -193,7 +193,7 @@ if( have_rows('content_sections') )
                                             </div>
                                         </div>
 
-                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 class="text-lg-start text-md-start text-sm-center text-center">
@@ -206,7 +206,7 @@ if( have_rows('content_sections') )
                                             </div>
                                         </div>
 
-                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 class="text-lg-start text-md-start text-sm-center text-center">
@@ -222,7 +222,7 @@ if( have_rows('content_sections') )
                                         </div>
 
 
-                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-4 ">
+                                        <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 class="text-lg-start text-md-start text-sm-center text-center">
