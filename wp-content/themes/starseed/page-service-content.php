@@ -170,7 +170,7 @@ if( have_rows('content_sections') )
                                             <div class="col-8">
                                                 <h3 style="text-align: left;">星際綜合能量療癒</h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn"
+                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/soulhealing/">了解更多</a>
                                             </div>
 
@@ -181,7 +181,7 @@ if( have_rows('content_sections') )
                                             <div class="col-8">
                                                 <h3 style="text-align: left;">靈魂家族溯源</h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn"
+                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/starseedoriginregression/">了解更多</a>
                                             </div>
                                         </div>
@@ -192,7 +192,7 @@ if( have_rows('content_sections') )
                                                 <h3 style="text-align: left;">家居靈體清理
                                                 </h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn"
+                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/%e5%ae%b6%e5%b1%85%e9%9d%88%e9%ab%94%e6%b8%85%e7%90%86/">了解更多</a>
                                             </div>
                                         </div>
@@ -204,7 +204,7 @@ if( have_rows('content_sections') )
 
                                                 </h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn"
+                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/krystalorbattunement/">了解更多</a>
                                             </div>
                                         </div>
@@ -218,7 +218,7 @@ if( have_rows('content_sections') )
 
                                                 </h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn"
+                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/%e5%85%88%e4%ba%ba%e8%b6%85%e6%b8%a1%e5%84%80%e5%bc%8f/">了解更多</a>
                                             </div>
                                         </div>
