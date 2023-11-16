@@ -2778,7 +2778,7 @@ video {
   .home-button-list {
     text-align: center;
   }
-  .home-button-list a {
+  .home-button-list a.know-more-btn.about-xylas {
     display: inline-block;
   }
   .home-desktop-banner {
