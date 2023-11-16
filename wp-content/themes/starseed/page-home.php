@@ -287,7 +287,7 @@ get_header(); ?>
  -->
 
 
-<div class="w-bg">
+<div class="g-bg">
     <div class="container mt-0 pt-5 text-center pb-5 inner-container pe-3 ps-3">
 
 
