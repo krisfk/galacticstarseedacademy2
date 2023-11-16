@@ -153,7 +153,7 @@ if( have_rows('content_sections') )
                                     <?php //echo $content;?>
 
 
-                                    <div class="container">
+                                    <div class="container service-content-table">
                                         <div class="row">
 
                                             <div class="col-6">
@@ -229,7 +229,7 @@ if( have_rows('content_sections') )
 
 
 
-                                    <table class="service-content-table">
+                                    <!-- <table class="service-content-table">
                                         <tbody>
                                             <tr>
                                                 <td>
@@ -280,7 +280,7 @@ if( have_rows('content_sections') )
                                                 </td>
                                             </tr>
                                         </tbody>
-                                    </table>
+                                    </table> -->
 
                                 </div>
 
