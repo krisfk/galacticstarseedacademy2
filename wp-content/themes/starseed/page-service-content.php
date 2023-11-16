@@ -156,10 +156,11 @@ if( have_rows('content_sections') )
                                     <div class="container service-content-table">
                                         <div class="row mb-2">
 
-                                            <div class="col-8">
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">宇宙開示與塔羅問事</h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-lg-12 ">
+                                                <a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/%e5%ae%87%e5%ae%99%e9%96%8b%e7%a4%ba%e8%88%87%e5%a1%94%e7%be%85%e5%95%8f%e4%ba%8b/">了解更多</a>
                                             </div>
 
@@ -167,10 +168,11 @@ if( have_rows('content_sections') )
 
                                         <div class="row mb-2">
 
-                                            <div class="col-8">
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">星際綜合能量療癒</h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-lg-12 ">
+                                                <a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/soulhealing/">了解更多</a>
                                             </div>
 
@@ -178,33 +180,37 @@ if( have_rows('content_sections') )
 
                                         <div class="row mb-2">
 
-                                            <div class="col-8">
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">靈魂家族溯源</h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-lg-12 ">
+                                                <a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/starseedoriginregression/">了解更多</a>
                                             </div>
                                         </div>
 
                                         <div class="row mb-2">
 
-                                            <div class="col-8">
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">家居靈體清理
                                                 </h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-lg-12 ">
+                                                <a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/%e5%ae%b6%e5%b1%85%e9%9d%88%e9%ab%94%e6%b8%85%e7%90%86/">了解更多</a>
                                             </div>
                                         </div>
 
                                         <div class="row mb-2">
 
-                                            <div class="col-8">
+                                            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 style="text-align: left;">基督意識靈光球點化
 
                                                 </h3>
                                             </div>
-                                            <div class="col-4"><a class="mt-0 know-more-btn w-100 p-3"
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-lg-12 ">
+
+                                                <a class="mt-0 know-more-btn w-100 p-3"
                                                     href="http://64.227.13.14/starseed/product/krystalorbattunement/">了解更多</a>
                                             </div>
                                         </div>
