@@ -206,11 +206,13 @@ get_header(); ?>
                         </div>
 
 
-                        <a href="<?php echo get_site_url();?>/about-us" class="know-more-btn about-xylas me-3">了解更多</a>
+                        <div class="home-button-list">
+                            <a href="<?php echo get_site_url();?>/about-us"
+                                class="know-more-btn about-xylas me-3">了解更多</a>
 
-                        <a href="<?php echo get_site_url();?>/service-content"
-                            class="know-more-btn about-xylas">預約服務</a>
-
+                            <a href="<?php echo get_site_url();?>/service-content"
+                                class="know-more-btn about-xylas">預約服務</a>
+                        </div>
 
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
