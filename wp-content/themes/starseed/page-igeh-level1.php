@@ -356,6 +356,64 @@ if( have_rows('content_sections') )
 
 <?php
 
+if(get_field('show_client_case_share'))
+{
+    // $idx++;
+    $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
+
+    ?>
+<div class="sharing-div pt-5 pb-5 <?php echo $bg_class;?>">
+
+
+    <div class="container inner-container ">
+        <h2>客戶評語及個案分享</h2>
+
+
+        <div class="slides">
+
+
+            <?php
+          if( have_rows('clients_case_share') )
+          {
+              while(have_rows('clients_case_share') )
+              {
+                  the_row();  
+                  ?>
+            <div class="slide">
+
+                <div class="mt-4 ps-3 pe-3 text-center">
+                    <?php echo get_sub_field('sharing_text');?>
+                </div>
+
+                <h2 class="mt-4"> <?php echo get_sub_field('client_name');?>
+                </h2>
+                <div class="mt-4">
+                    <!-- 描述 -->
+                </div>
+
+            </div>
+            <?php
+              }
+            }
+        ?>
+
+        </div>
+    </div>
+
+
+
+</div>
+<?php
+    $idx++;
+
+}
+?>
+
+
+
+
+<?php
+
 if(get_field('show_testimonial'))
 {
     $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
