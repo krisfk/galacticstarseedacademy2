@@ -262,7 +262,7 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                 // alert(6);
 
                                 $('.outer-menu-div').css({
-                                    'height': '0px'
+                                    'height': 'inherit'
                                 });
 
 
