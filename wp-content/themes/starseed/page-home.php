@@ -274,10 +274,6 @@ get_header(); ?>
 
 
 
-            <!-- <video width="640" height="" controls>
-                <source src="http://64.227.13.14/starseed/wp-content/uploads/2023/10/file_example_MP4_480_1_5MG.mp4"
-                    type="video/mp4">
-            </video> -->
 
 
         </div>
@@ -286,6 +282,27 @@ get_header(); ?>
     </div>
 
 
+
+</div>
+
+
+
+<div class="w-bg">
+    <div class="container mt-0 pt-5 text-center pb-5 inner-container pe-3 ps-3">
+
+
+        <h2 class="mt-4">視頻好評</h2>
+        <div class="mt-4">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <p><iframe loading="lazy" title="YouTube video player"
+                            src="https://www.youtube.com/embed/pNnPWikVF2s?si=U4feS0DyiPZm-mMx&amp;showinfo=0"
+                            width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"
+                            style="max-width: 100%; max-height: 224px;"></iframe></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </div>
 
