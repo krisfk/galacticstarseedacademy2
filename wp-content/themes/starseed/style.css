@@ -2775,6 +2775,12 @@ video {
 }
 
 @media only screen and (max-width: 991px) {
+  .home-button-list {
+    text-align: center;
+  }
+  .home-button-list a {
+    display: inline-block;
+  }
   .home-desktop-banner {
     display: none;
   }
