@@ -2493,6 +2493,10 @@ video {
   margin: 0 auto;
 }
 
+.service-content-table h3 {
+  color: #660066;
+}
+
 .service-content-table td {
   padding: 0rem 2rem 0.5rem 0;
 }
