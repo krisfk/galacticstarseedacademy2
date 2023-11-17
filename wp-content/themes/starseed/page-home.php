@@ -296,14 +296,17 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/piewJhktKTM?si=3df27cjJ2B_WPMh3"
+
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ks8OK6kYWro?si=-szy8BGKmx-jCJct"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
+
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2beWk-MfNcY?si=uXb2d2v58Inm0RXy"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TSlLO6cabWw?si=MgokMrLYIVZW__Vz"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
