@@ -130,6 +130,7 @@ body {
 .outer-menu-div {
   display: block;
   backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   /* position: fixed; */
   position: relative;
   top: 0;
