@@ -334,33 +334,32 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
 
                                 } else {
 
-                                    // 0px 0px 10px 0px rgb(0 0 0 / 50%)
-                                    $('.top-menu-container').css({
-                                        'box-shadow': '0px 0px 10px 0px rgb(0 0 0 / 50%)'
-                                    });
 
 
-                                    // $('.top-menu-ul').fadeOut(0);
+
 
                                     $('.top-menu-ul').animate({
                                         'height': '20px'
                                     }, 200)
-                                    // alert('test');
-                                    // .fadeOut(0);
 
-                                    $('.outer-menu-div').css({
-                                        'height': '77px'
-                                    });
 
-                                    $('html').css({
-                                        'overflow': 'auto'
-                                    });
-                                    // $('.top-menu-container').css({
-                                    //     'height': 'auto'
+                                    // $('.outer-menu-div').css({
+                                    //     'height': '77px'
                                     // });
-                                    $('.top-menu-container').animate({
-                                        'height': '77px'
-                                    }, 200)
+
+                                    // $('html').css({
+                                    //     'overflow': 'auto'
+                                    // });
+
+
+                                    // $('.top-menu-container').animate({
+                                    //     'height': '77px'
+                                    // }, 200)
+
+                                    // $('.top-menu-container').css({
+                                    //     'box-shadow': '0px 0px 10px 0px rgb(0 0 0 / 50%)'
+                                    // });
+
 
 
                                 }
