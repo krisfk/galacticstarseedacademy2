@@ -347,18 +347,18 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                     //     'height': '77px'
                                     // });
 
-                                    // $('html').css({
-                                    //     'overflow': 'auto'
-                                    // });
+                                    $('html').css({
+                                        'overflow': 'auto'
+                                    });
 
 
                                     // $('.top-menu-container').animate({
                                     //     'height': '77px'
                                     // }, 200)
 
-                                    // $('.top-menu-container').css({
-                                    //     'box-shadow': '0px 0px 10px 0px rgb(0 0 0 / 50%)'
-                                    // });
+                                    $('.top-menu-container').css({
+                                        'box-shadow': '0px 0px 10px 0px rgb(0 0 0 / 50%)'
+                                    });
 
 
 
