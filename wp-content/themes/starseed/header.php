@@ -280,6 +280,8 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                     $('.top-menu-container').css({
                                         'height': 'auto'
                                     });
+
+
                                     // $('.top-menu-ul li a.level-1.parent').removeClass('open');
                                     $('.mobile-menu-submenu').fadeOut(0);
                                     $('.mobile-menu-btn').removeClass('open');
@@ -338,7 +340,12 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                     });
 
 
-                                    $('.top-menu-ul').fadeOut(0);
+                                    // $('.top-menu-ul').fadeOut(0);
+
+                                    $('.top-menu-ul').animate({
+                                        'height': '0'
+                                    }, 200);
+
                                     $('.outer-menu-div').css({
                                         'height': '77px'
                                     });
