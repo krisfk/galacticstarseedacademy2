@@ -345,7 +345,7 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                     $('.top-menu-ul').animate({
                                         'height': '0'
                                     }, 200)
-                                    alert('test');
+                                    // alert('test');
                                     // .fadeOut(0);
 
                                     $('.outer-menu-div').css({
