@@ -298,7 +298,7 @@ get_header(); ?>
 
 
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ks8OK6kYWro?si=-szy8BGKmx-jCJct"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XzDkr4fNwfE?si=-szy8BGKmx-jCJct"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
@@ -306,7 +306,7 @@ get_header(); ?>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TSlLO6cabWw?si=MgokMrLYIVZW__Vz"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fsHS25zdE6s?si=MgokMrLYIVZW__Vz"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
