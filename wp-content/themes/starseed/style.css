@@ -129,7 +129,7 @@ body {
 
 .outer-menu-div {
   display: block;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   /* position: fixed; */
   position: relative;
   top: 0;
