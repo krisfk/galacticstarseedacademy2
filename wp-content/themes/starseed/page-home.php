@@ -56,7 +56,8 @@ get_header(); ?>
 
 
             <div class="text-center">
-                <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">了解更多</a>
+                <a href="<?php echo get_site_url();?>/http://64.227.13.14/starseed/timetable/"
+                    class="know-more-btn">了解更多</a>
             </div>
 
 
@@ -113,7 +114,8 @@ get_header(); ?>
                             </div>
 
                             <div class="text-center">
-                                <a href="<?php echo get_site_url();?>/product/宇宙開示與塔羅問事/" class="know-more-btn">了解更多</a>
+                                <a href="<?php echo get_site_url();?>/product/cosmic-channeling-and-tarot-reading/"
+                                    class="know-more-btn">了解更多</a>
                             </div>
 
                         </div>
@@ -151,7 +153,7 @@ get_header(); ?>
 
                             <!-- http://64.227.13.14/starseed -->
                             <div class="text-center">
-                                <a href="<?php echo get_site_url();?>/product/soulhealing/"
+                                <a href="<?php echo get_site_url();?>/product/private-healing/"
                                     class="know-more-btn">了解更多</a>
                             </div>
 
