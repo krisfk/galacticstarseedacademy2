@@ -30,10 +30,7 @@ get_header(); ?>
 <img class="w-100 home-mobile-banner"
     src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/homepage-Banner-scaled.jpg" alt="">
 
-<div class="mt-5 mb-5">
-    <h1 class="text-center" style="font-size:2rem;">開啟靈性智慧的星際之旅</h1>
 
-</div>
 
 
 
@@ -46,6 +43,11 @@ get_header(); ?>
                 src="https://galacticstarseedacademy.com/wp-content/uploads/2023/03/desktop-logo-300x300.png" alt="">
         </div> -->
 
+
+        <div class="mt-5 mb-5">
+            <h1 class="text-center" style="font-size:2rem;">開啟靈性智慧的星際之旅</h1>
+
+        </div>
 
         <div class="text-center">
 
