@@ -19,11 +19,6 @@ get_header(); ?>
 
 
 
-<!-- <div class="container mt-lg-5 mt-md-0 mt-sm-0 mt-0  mobile-banner-container"><img class="w-100"
-        src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/homepage-Banner-scaled.jpg" alt="">
-</div> -->
-
-
 <img class="w-100 home-desktop-banner"
     src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/desktop-home-banner.jpg" alt="">
 
@@ -38,13 +33,14 @@ get_header(); ?>
     <div class="container container mt-0  text-center  pt-5 pb-5 ">
 
 
+        <?php
+    
+    
+    echo get_field('content_1');
+    ?>
 
-        <!-- <div class="text-center"><img
-                src="https://galacticstarseedacademy.com/wp-content/uploads/2023/03/desktop-logo-300x300.png" alt="">
-        </div> -->
 
-
-        <div class="mt-0 mb-5">
+        <!-- <div class="mt-0 mb-5">
             <h1 class="text-center" style="font-size:1.8rem;">開啟靈性智慧的星際之旅</h1>
 
         </div>
@@ -64,30 +60,8 @@ get_header(); ?>
 
 
 
-            <!-- <div class="mx-auto mt-4">
 
-
-
-                <video width="640" height="" controls>
-                    <source src="http://64.227.13.14/starseed/wp-content/uploads/2023/10/file_example_MP4_480_1_5MG.mp4"
-                        type="video/mp4">
-                </video>
-
-
-            </div> -->
-
-
-            <!-- <div class="content-txt-div mt-4">
-
-
-
-            </div> -->
-
-            <!-- <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">立即了解更多</a> -->
-
-
-
-        </div>
+        </div> -->
 
     </div>
 </div>
@@ -152,16 +126,11 @@ get_header(); ?>
 
                             </div>
 
-                            <!-- http://64.227.13.14/starseed -->
                             <div class="text-center">
                                 <a href="<?php echo get_site_url();?>/product/private-healing/"
                                     class="know-more-btn">了解更多</a>
                             </div>
 
-
-                            <!-- <div class="text-center">
-                                <a href="<?php echo get_site_url();?>/courses-workshops/" class="know-more-btn">了解更多</a>
-                            </div> -->
 
                         </div>
 
@@ -243,51 +212,6 @@ get_header(); ?>
 
 
 
-
-
-<!-- 
-<div class="row pt-5 pb-5 g-bg">
-
-    <div class="container text-center">
-        <h1>聽聽別人對Xylas的評價：</h1>
-
-        <div class="mx-auto mt-3">
-
-
-
-            <div class="row">
-
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/piewJhktKTM?si=3df27cjJ2B_WPMh3"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2beWk-MfNcY?si=uXb2d2v58Inm0RXy"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-
-
-
-
-
-
-
-        </div>
-
-
-    </div>
-
-
-
-</div>
- -->
 
 
 <div class="g-bg">
