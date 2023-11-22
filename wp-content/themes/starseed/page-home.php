@@ -45,7 +45,7 @@ get_header(); ?>
 
 
         <div class="mt-0 mb-5">
-            <h1 class="text-center" style="font-size:2rem;">開啟靈性智慧的星際之旅</h1>
+            <h1 class="text-center" style="font-size:1.8rem;">開啟靈性智慧的星際之旅</h1>
 
         </div>
 
