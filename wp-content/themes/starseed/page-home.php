@@ -227,7 +227,8 @@ get_header(); ?>
     <div class="container mt-0 pt-5 text-center pb-5 inner-container pe-3 ps-3">
 
 
-        <h2 class="mt-4">聽聽別人對Xylas的評價：</h2>
+        <?php echo get_field('content_5');?>
+        <!-- <h2 class="mt-4">聽聽別人對Xylas的評價：</h2>
         <div class="mt-4">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
@@ -247,9 +248,9 @@ get_header(); ?>
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
-            </div>
-        </div>
+            </div> -->
     </div>
+</div>
 
 </div>
 
