@@ -2973,6 +2973,7 @@ video {
     color: #fff;
     padding: 10px 25px;
     text-decoration: none;
+    max-width: 70%;
     border-radius: 20px;
     margin: 1rem 0 0 0;
     transition: 0.2s all;
