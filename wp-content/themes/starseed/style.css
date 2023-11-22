@@ -2495,6 +2495,11 @@ video {
 }
 
 .service-content-table .line {
+  display: block;
+  height: 2px;
+  background: #660067;
+  width: 50%;
+  margin: 0 auto 1rem auto;
 }
 
 .service-content-table h3 {
