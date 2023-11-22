@@ -81,7 +81,9 @@ get_header(); ?>
                         <div class="col-12 text-left">
 
 
-                            <h2 class=" text-center">宇宙開示與塔羅問事</h2>
+
+                            <?php echo get_field('content_2');?>
+                            <!-- <h2 class=" text-center">宇宙開示與塔羅問事</h2>
 
                             <div class="mt-4 text-start content-txt-div">
                                 解答人生迷惘，探索真相指引！宇宙開示與塔羅問事服務是你面對抉擇時的靈性導航。Xylas將連結宇宙意識，解答你的人生疑難，提供指引和真相。我們使用經過調頻和開光的塔羅牌，準確反映事情的本質。如果你準備好迎接人生的啟示，立即體驗宇宙開示與塔羅問事，揭開真相，找到前進的方向吧！
@@ -91,7 +93,7 @@ get_header(); ?>
                             <div class="text-center">
                                 <a href="<?php echo get_site_url();?>/product/cosmic-channeling-and-tarot-reading/"
                                     class="know-more-btn">了解更多</a>
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -119,7 +121,9 @@ get_header(); ?>
                         <div class="col-12 text-left">
 
 
-                            <h2 class=" text-center">星際綜合能量療癒</h2>
+                            <?php echo get_field('content_3');?>
+
+                            <!-- <h2 class=" text-center">星際綜合能量療癒</h2>
 
                             <div class="mt-4 text-start content-txt-div">
                                 探索跨維度的療癒旅程；釋放創傷、煥發人生命力。星際綜合能量療癒為你提供針對性個人化度身訂造的療癒體驗，從多個層面解決身心問題，提升頻率、療癒關係，引領你展開豐盛人生。
@@ -129,7 +133,7 @@ get_header(); ?>
                             <div class="text-center">
                                 <a href="<?php echo get_site_url();?>/product/private-healing/"
                                     class="know-more-btn">了解更多</a>
-                            </div>
+                            </div> -->
 
 
                         </div>
@@ -168,7 +172,12 @@ get_header(); ?>
                 <div class="row align-items-center mobile-column-reverse">
 
 
-                    <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end content-txt">
+                    <?php
+                
+                echo get_field('content_4');
+                ?>
+
+                    <!-- <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end content-txt">
                         <h1>學院創辦人：Xylas
                         </h1>
                         <div class="content-txt-div mt-4">
@@ -191,7 +200,7 @@ get_header(); ?>
                         <img class="w-100 bosco-foto"
                             src="https://galacticstarseedacademy.com/wp-content/uploads/2023/09/Propic.png" alt="">
 
-                    </div>
+                    </div> -->
 
                 </div>
 
