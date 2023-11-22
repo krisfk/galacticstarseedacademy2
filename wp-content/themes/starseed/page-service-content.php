@@ -158,7 +158,7 @@ if( have_rows('content_sections') )
                                         <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
-                                                <h3 class="text-lg-start text-md-start text-sm-center text-center">
+                                                <h3 class="text-lg-start text-md-start text-sm-center text-center mb-3">
                                                     宇宙開示與塔羅問事</h3>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
@@ -171,7 +171,7 @@ if( have_rows('content_sections') )
                                         <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
-                                                <h3 class="text-lg-start text-md-start text-sm-center text-center">
+                                                <h3 class="text-lg-start text-md-start text-sm-center text-center mb-3">
                                                     星際綜合能量療癒</h3>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
@@ -184,7 +184,7 @@ if( have_rows('content_sections') )
                                         <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
-                                                <h3 class="text-lg-start text-md-start text-sm-center text-center">
+                                                <h3 class="text-lg-start text-md-start text-sm-center text-center mb-3">
                                                     靈魂家族溯源</h3>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
@@ -196,7 +196,7 @@ if( have_rows('content_sections') )
                                         <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
-                                                <h3 class="text-lg-start text-md-start text-sm-center text-center">
+                                                <h3 class="text-lg-start text-md-start text-sm-center text-center mb-3">
                                                     家居靈體清理
                                                 </h3>
                                             </div>
@@ -209,7 +209,7 @@ if( have_rows('content_sections') )
                                         <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
-                                                <h3 class="text-lg-start text-md-start text-sm-center text-center">
+                                                <h3 class="text-lg-start text-md-start text-sm-center text-center mb-3">
                                                     基督意識靈光球點化
 
                                                 </h3>
@@ -225,7 +225,7 @@ if( have_rows('content_sections') )
                                         <div class="row mb-lg-2 mb-md-2 mb-sm-4 mb-5 ">
 
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
-                                                <h3 class="text-lg-start text-md-start text-sm-center text-center">
+                                                <h3 class="text-lg-start text-md-start text-sm-center text-center mb-3">
                                                     先人超渡儀式
 
 
