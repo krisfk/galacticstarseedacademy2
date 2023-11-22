@@ -2495,11 +2495,7 @@ video {
 }
 
 .service-content-table .line {
-  display: block;
-  height: 2px;
-  background: #660067;
-  width: 50%;
-  margin: 0 auto 1rem auto;
+  display: none;
 }
 
 .service-content-table h3 {
@@ -2792,6 +2788,13 @@ video {
 }
 
 @media only screen and (max-width: 991px) {
+  .service-content-table .line {
+    display: block;
+    height: 2px;
+    background: #660067;
+    width: 50%;
+    margin: 0 auto 1rem auto;
+  }
   .home-button-list {
     text-align: center;
   }
