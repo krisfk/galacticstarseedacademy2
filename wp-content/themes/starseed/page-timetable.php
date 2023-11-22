@@ -24,7 +24,7 @@ get_header(); ?>
 
 <div class="w-bg">
     <div class="container container mt-4  text-center  pt-5 pb-5 ">
-        <div class="mt-3 text-start content-txt-div">
+        <div class="mt-3 text-start content-txt-div  text-center">
 
             <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top ">
                 <h1>學院時間表
