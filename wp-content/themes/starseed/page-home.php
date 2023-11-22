@@ -20,10 +20,10 @@ get_header(); ?>
 
 
 <img class="w-100 home-desktop-banner"
-    src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/desktop-home-banner.jpg" alt="">
+    src="<?php echo wp_get_attachment_image_src(get_field('desktop_banner'),'full')[0];?>" alt="">
 
 <img class="w-100 home-mobile-banner"
-    src="http://64.227.13.14/starseed/wp-content/uploads/2023/11/homepage-Banner-scaled.jpg" alt="">
+    src="<?php echo wp_get_attachment_image_src(get_field('mobile_banner'),'full')[0];?>" alt="">
 
 
 
