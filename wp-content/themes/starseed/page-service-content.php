@@ -160,6 +160,8 @@ if( have_rows('content_sections') )
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 class="text-lg-start text-md-start text-sm-center text-center mb-3">
                                                     宇宙開示與塔羅問事</h3>
+
+                                                <div class="line"></div>
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
                                                 <a class="mt-0 know-more-btn w-100 p-3"

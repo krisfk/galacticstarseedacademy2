@@ -2494,6 +2494,9 @@ video {
   margin: 0 auto;
 }
 
+.service-content-table .line {
+}
+
 .service-content-table h3 {
   color: #660066;
 }
