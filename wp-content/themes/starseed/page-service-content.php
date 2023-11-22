@@ -175,6 +175,8 @@ if( have_rows('content_sections') )
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 class="text-lg-start text-md-start text-sm-center text-center mb-3">
                                                     星際綜合能量療癒</h3>
+                                                <div class="line"></div>
+
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
                                                 <a class="mt-0 know-more-btn w-100 p-3"
@@ -188,6 +190,8 @@ if( have_rows('content_sections') )
                                             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
                                                 <h3 class="text-lg-start text-md-start text-sm-center text-center mb-3">
                                                     靈魂家族溯源</h3>
+                                                <div class="line"></div>
+
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
                                                 <a class="mt-0 know-more-btn w-100 p-3"
@@ -201,6 +205,8 @@ if( have_rows('content_sections') )
                                                 <h3 class="text-lg-start text-md-start text-sm-center text-center mb-3">
                                                     家居靈體清理
                                                 </h3>
+                                                <div class="line"></div>
+
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
                                                 <a class="mt-0 know-more-btn w-100 p-3"
@@ -215,6 +221,8 @@ if( have_rows('content_sections') )
                                                     基督意識靈光球點化
 
                                                 </h3>
+                                                <div class="line"></div>
+
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
 
@@ -232,6 +240,8 @@ if( have_rows('content_sections') )
 
 
                                                 </h3>
+                                                <div class="line"></div>
+
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
                                                 <a class="mt-0 know-more-btn w-100 p-3"
