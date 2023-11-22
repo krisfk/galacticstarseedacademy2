@@ -18,6 +18,13 @@ get_header(); ?>
 
 
 
+
+
+
+
+
+
+
 <div class="w-bg">
     <div class="container container mt-4  text-center  pt-5 pb-5 ">
 
@@ -31,13 +38,13 @@ get_header(); ?>
 
             <?php echo get_the_content();?>
 
+
+
             <div class="text-center">
                 <a href="<?php echo get_site_url();?>/courses-workshops" class="know-more-btn about-xylas">我要報名</a>
             </div>
 
-            <!-- 
-            <p>星際綜合能量療法一階課程是為期8天的課程，為你提供對自己或他人進行強大的星際綜合能量療癒所需的一切。這個課程旨在為那些希望學習和應用高階靈性知識、療法和技術以轉化他們的生活的學生提供專業優質的入門級課程。雖然這個課程是「入門級」，但這個課程所帶來的收穫卻已經非常多。
-            </p> -->
+
         </div>
 
     </div>
@@ -324,15 +331,118 @@ if( have_rows('content_sections') )
 
 
 
+<!-- 
+
+<div class="w-bg">
+    <div class="container mt-0 pt-5 text-center pb-5 inner-container pe-3 ps-3">
+
+
+        <h2 class="mt-4">視頻好評</h2>
+        <div class="mt-4">
+            <div class="row">
+
+                <div class="container mt-5 text-center pb-5 ">
+
+                    <?php echo get_field('testimonial_content')?>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div> -->
 
 
 
+<?php
+
+if(get_field('show_client_case_share'))
+{
+    // $idx++;
+    $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
+
+    ?>
+<div class="sharing-div pt-5 pb-5 <?php echo $bg_class;?>">
 
 
-<div class="container mt-5 text-center pb-5 ">
+    <div class="container inner-container ">
+        <h2>客戶評語及個案分享</h2>
+
+
+        <div class="slides">
+
+
+            <?php
+          if( have_rows('clients_case_share') )
+          {
+              while(have_rows('clients_case_share') )
+              {
+                  the_row();  
+                  ?>
+            <div class="slide">
+
+                <div class="mt-4 ps-3 pe-3 text-center">
+                    <?php echo get_sub_field('sharing_text');?>
+                </div>
+
+                <h2 class="mt-4"> <?php echo get_sub_field('client_name');?>
+                </h2>
+                <div class="mt-4">
+                    <!-- 描述 -->
+                </div>
+
+            </div>
+            <?php
+              }
+            }
+        ?>
+
+        </div>
+    </div>
+
 
 
 </div>
+<?php
+    $idx++;
+
+}
+?>
+
+
+
+
+<?php
+
+if(get_field('show_testimonial'))
+{
+    $bg_class= ($idx %2 ==1) ? 'w-bg':'g-bg';
+
+    ?>
+
+<div class="<?php echo $bg_class;?>">
+    <div class="container mt-0 pt-5 text-center pb-5 inner-container pe-3 ps-3">
+
+
+        <h2 class="mt-4">視頻好評</h2>
+        <div class="mt-4">
+            <?php
+        echo  get_field('testimonial_content');
+        
+        ?>
+        </div>
+    </div>
+
+</div>
+
+
+<?php
+}
+?>
+
+
+
+
 
 
 
