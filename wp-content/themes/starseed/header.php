@@ -202,12 +202,12 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
 ?>
 
 
-                                                        <li>
+                                                        <!-- <li>
                                                             <a href="<?php echo get_site_url()?>/cart" class="cart-a">
                                                                 <img src="<?php echo get_template_directory_uri();?>/assets/images/cart.png"
                                                                     alt=""></a>
 
-                                                        </li>
+                                                        </li> -->
                                                     </ul>
                                                 </div>
 
